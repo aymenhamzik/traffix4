@@ -1,0 +1,8 @@
+agent switched off,runs,car wait change %,car wait p,pedestrian wait change %,pedestrian wait p,emergency trip change %,emergency trip p,unfinished trips change %,unfinished trips p,truncations change %,truncations p
+corridor,12,14.4,0.0989,-8.2,0.0525,-13.1,0.2811,28.3,0.1669,-100.0,0.1039
+emergency-route,12,-2.3,0.1459,-1.4,0.5322,0.7,0.9547,0.0,,0.0,1.0
+forecast,12,0.0,,0.0,,0.0,,0.0,,0.0,
+incident,12,0.0,,0.0,,0.0,,0.0,,0.0,
+rerouting,12,0.0,,0.0,,0.0,,0.0,,0.0,
+transit-monitor,12,3.1,0.4818,-6.9,0.075,-10.7,0.3146,17.1,0.4079,-100.0,0.1039
+weather,12,-7.0,0.0986,-9.3,0.0724,-10.7,0.3787,1.4,0.7655,-50.0,0.4382

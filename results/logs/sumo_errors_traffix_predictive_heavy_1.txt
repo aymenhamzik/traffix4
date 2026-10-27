@@ -1,0 +1,24 @@
+Warning: Not using public transport line 'L2_south' for routing persons. It has less than two usable stops.
+Warning: Person 'ped1015' is jammed on edge ':B1_c2', time=3216.00.
+Warning: Teleporting vehicle 'veh3842'; waited too long (yield), lane='rome_n_B1_1', time=3482.00.
+Warning: Person 'ped1126' is jammed on edge ':F1_w0', time=3496.00.
+Warning: Person 'ped1131' is jammed on edge ':F1_w0', time=3501.00.
+Warning: Teleporting vehicle 'veh3458'; waited too long (yield), lane=':F1_2_0', time=3501.00.
+Warning: Vehicle 'veh3458' ends teleporting on edge 'F1_F3', time=3501.00.
+Warning: Teleporting vehicle 'veh3190'; waited too long (yield), lane='B1_F1_1', time=3502.00.
+Warning: Vehicle 'veh3190' ends teleporting on edge 'F1_F3', time=3502.00.
+Warning: Vehicle 'veh3842' ends teleporting on edge 'B1_F1', time=3502.00.
+Warning: Teleporting vehicle 'veh3126'; waited too long (yield), lane='B1_F1_1', time=3520.00.
+Warning: Vehicle 'veh3126' ends teleporting on edge 'F1_fh_w', time=3520.00.
+Warning: Teleporting vehicle 'veh3981'; waited too long (jam), lane=':F1_4_1', time=3555.00.
+Warning: Vehicle 'veh3981' ends teleporting on edge 'F1_fh_w', time=3555.00.
+Warning: Teleporting vehicle 'veh3731'; waited too long (yield), lane='bab_bhar_B1_1', time=3564.00.
+Warning: Teleporting vehicle 'veh3382'; waited too long (yield), lane='B2_B1_2', time=3566.00.
+Warning: Teleporting vehicle 'veh3537'; waited too long (jam), lane='B3_B2_2', time=3608.00.
+Warning: Vehicle 'veh3537' ends teleporting on edge 'B2_B1', time=3614.00.
+Warning: Teleporting vehicle 'veh2729'; waited too long (jam), lane=':F1_8_0', time=3630.00.
+Warning: Vehicle 'veh2729' ends teleporting on edge 'F1_B1', time=3630.00.
+Warning: Teleporting vehicle 'veh2005'; waited too long (yield), lane=':F1_21_0', time=3631.00.
+Warning: Vehicle 'veh2005' ends teleporting on edge 'F1_B1', time=3631.00.
+Warning: Vehicle 'veh3382' ends teleporting on edge 'B1_F1', time=3753.00.
+Warning: Vehicle 'veh3731' ends teleporting on edge 'B1_F1', time=3806.00.

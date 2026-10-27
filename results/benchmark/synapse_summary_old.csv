@@ -1,0 +1,7 @@
+engine,lang,accuracy,answerable_correct,trick_abstained,citation_validity,median_latency_ms
+llm agent,ar,1.0,1.0,1.0,1.0,172.4
+llm agent,en,1.0,1.0,1.0,1.0,176.75
+llm agent,fr,1.0,1.0,1.0,1.0,178.35
+template,ar,1.0,1.0,1.0,1.0,6.05
+template,en,1.0,1.0,1.0,1.0,6.15
+template,fr,1.0,1.0,1.0,1.0,5.95

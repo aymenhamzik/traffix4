@@ -1,0 +1,6 @@
+Warning: Not using public transport line 'L2_south' for routing persons. It has less than two usable stops.
+Warning: Not using public transport line 'L1_east' for routing persons. It has less than two usable stops.
+Warning: Person 'ped1858' is jammed on edge ':F1_c1', time=6449.00.
+Warning: Person 'ped1524' is jammed on edge ':F1_c1', time=6451.00.
+Warning: Person 'ped1647' is jammed on edge ':F1_c0', time=6974.00.
+Warning: Vehicle 'veh8149' performs emergency braking on lane ':B4_14_1' with decel=9.00, wished=4.50, severity=1.00, time=8465.00.

@@ -1,0 +1,29 @@
+# Synapse benchmark questions, asked against the log of the "combined" scenario (seed 1):
+# rain, a blocked lane on Bourguiba, 4 ambulances and a fire truck.
+# expect.vehicle / expect.reasons: an answer passes if it cites at least one matching log entry.
+# expect.abstain: a trick question about something that never happened: it must abstain.
+- {id: 1, topic: emergency, expect: {vehicle: ambulance0},
+   en: "Why did ambulance 0 get green?", fr: "Pourquoi l'ambulance 0 a-t-elle eu le vert ?",
+   ar: "لماذا حصلت سيارة الإسعاف 0 على الضوء الأخضر؟"}
+- {id: 2, topic: emergency, expect: {vehicle: ambulance2},
+   en: "What happened with ambulance 2?", fr: "Que s'est-il passé avec l'ambulance 2 ?", ar: "ماذا حدث لسيارة الإسعاف 2؟"}
+- {id: 3, topic: emergency, expect: {vehicle: fire0},
+   en: "What happened with fire truck 0?", fr: "Que s'est-il passé avec le camion de pompiers 0 ?", ar: "ماذا حدث لشاحنة الإطفاء 0؟"}
+- {id: 4, topic: bus, expect: {reasons: [TRANSIT, BUS_]},
+   en: "Why did the late buses get priority?", fr: "Pourquoi les bus en retard ont-ils eu la priorité ?",
+   ar: "لماذا حصلت الحافلات المتأخرة على الأولوية؟"}
+- {id: 5, topic: incident, expect: {reasons: [INCIDENT, CONGESTION, REROUTE]},
+   en: "What happened with the incident?", fr: "Que s'est-il passé avec l'incident ?", ar: "ماذا حدث في الحادث؟"}
+- {id: 6, topic: weather, expect: {reasons: [WEATHER]},
+   en: "What did the rain change?", fr: "Qu'est-ce que la pluie a changé ?", ar: "ماذا غيّر المطر؟"}
+- {id: 7, topic: pedestrian, expect: {reasons: [PED_, CLEARANCE]},
+   en: "Why was the green held for pedestrians?", fr: "Pourquoi le vert a-t-il été retenu pour les piétons ?",
+   ar: "لماذا تم تأجيل الضوء الأخضر من أجل المشاة؟"}
+- {id: 8, topic: trick, expect: {abstain: true},
+   en: "What happened with ambulance 9?", fr: "Que s'est-il passé avec l'ambulance 9 ?", ar: "ماذا حدث لسيارة الإسعاف 9؟"}
+- {id: 9, topic: trick, expect: {abstain: true},
+   en: "Why did police car 5 get green?", fr: "Pourquoi la voiture de police 5 a-t-elle eu le vert ?",
+   ar: "لماذا حصلت سيارة الشرطة 5 على الضوء الأخضر؟"}
+- {id: 10, topic: trick, expect: {abstain: true},
+   en: "Why was fire truck 7 refused?", fr: "Pourquoi le camion de pompiers 7 a-t-il été refusé ?",
+   ar: "لماذا رُفضت شاحنة الإطفاء 7؟"}

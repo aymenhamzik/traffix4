@@ -1,0 +1,5 @@
+Warning: Not using public transport line 'L2_north' for routing persons. It has less than two usable stops.
+Warning: Not using public transport line 'L1_west' for routing persons. It has less than two usable stops.
+Warning: Teleporting vehicle 'veh3072'; waited too long (yield), lane=':B4_24_0', time=3879.00.
+Warning: Vehicle 'veh3072' ends teleporting on edge 'B4_mv_n', time=3879.00.
+Warning: Person 'ped814' is jammed on edge ':B4_w3', time=3900.00.

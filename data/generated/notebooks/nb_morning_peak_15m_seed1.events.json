@@ -1,0 +1,8 @@
+{
+ "scenario": "nb_morning_peak_15m",
+ "seed": 1,
+ "start": "2026-10-13 08:00",
+ "duration": 900,
+ "events": {},
+ "vehicles": 1030
+}

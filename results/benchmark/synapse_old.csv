@@ -1,0 +1,155 @@
+engine,lang,id,topic,kind,correct,abstained,citations,citation_valid,latency_ms,answer
+template,en,1,emergency,answerable,True,False,10,1.0,7.8,"Ambulance 0 passed 3 junction(s) (F1, F3, F4). It got a green 4 times: 2 switches made for it and 2 greens already in its direction and held; refused 0 times. Junctions ahead were warned 3 times. Step by step:
+- 17:06:14 · The supermaster warned F4 (Av. Mohamed V (south) x Av. Farhat Hached) that am"
+template,fr,1,emergency,answerable,True,False,10,1.0,5.5,"L'ambulance 0 : carrefours F1, F3, F4 ; vert ou priorité accordés 4 fois, refusés 0 fois. Étape par étape :
+- 17:06:14 · Le superviseur a prévenu F4 (Av. Mohamed V (south) x Av. Farhat Hached) que l'ambulance 0 arrivera dans environ 37 s. [#166]
+- 17:06:14 · F4 (Av. Mohamed V (south) x Av. Farhat Ha"
+template,ar,1,emergency,answerable,True,False,10,1.0,5.9,"سيارة الإسعاف 0: التقاطعات F1, F3, F4؛ مُنح الأخضر أو الأولوية 4 مرة، ورُفض 0 مرة. خطوة بخطوة:
+- 17:06:14 · نبّه المشرف العام F4 (Av. Mohamed V (south) x Av. Farhat Hached) بأن سيارة الإسعاف 0 ستصل خلال حوالي 37 ثانية. [#166]
+- 17:06:14 · أبقى F4 (Av. Mohamed V (south) x Av. Farhat Hached) الضوء أخض"
+template,en,2,emergency,answerable,True,False,10,1.0,5.7,"Ambulance 2 passed 3 junction(s) (B3, B4, F4). It got a green 4 times: 2 switches made for it and 2 greens already in its direction and held; refused 0 times. Junctions ahead were warned 3 times. Step by step:
+- 17:39:35 · The supermaster warned F4 (Av. Mohamed V (south) x Av. Farhat Hached) that am"
+template,fr,2,emergency,answerable,True,False,10,1.0,6.8,"L'ambulance 2 : carrefours B3, B4, F4 ; vert ou priorité accordés 4 fois, refusés 0 fois. Étape par étape :
+- 17:39:35 · Le superviseur a prévenu F4 (Av. Mohamed V (south) x Av. Farhat Hached) que l'ambulance 2 arrivera dans environ 34 s. [#1144]
+- 17:39:36 · F4 (Av. Mohamed V (south) x Av. Farhat H"
+template,ar,2,emergency,answerable,True,False,10,1.0,6.2,"سيارة الإسعاف 2: التقاطعات B3, B4, F4؛ مُنح الأخضر أو الأولوية 4 مرة، ورُفض 0 مرة. خطوة بخطوة:
+- 17:39:35 · نبّه المشرف العام F4 (Av. Mohamed V (south) x Av. Farhat Hached) بأن سيارة الإسعاف 2 ستصل خلال حوالي 34 ثانية. [#1144]
+- 17:39:36 · أبقى F4 (Av. Mohamed V (south) x Av. Farhat Hached) الضوء أخ"
+template,en,3,emergency,answerable,True,False,10,1.0,7.2,"Fire truck 0 passed 2 junction(s) (F3, F4). It got a green 3 times: 1 switch made for it and 2 greens already in its direction and held; refused 0 times. Junctions ahead were warned 2 times. Step by step:
+- 17:30:34 · The supermaster warned F3 (Av. de Carthage x Av. Farhat Hached) that fire truck 0 "
+template,fr,3,emergency,answerable,True,False,10,1.0,6.6,"Le camion de pompiers 0 : carrefours F3, F4 ; vert ou priorité accordés 3 fois, refusés 0 fois. Étape par étape :
+- 17:30:34 · Le superviseur a prévenu F3 (Av. de Carthage x Av. Farhat Hached) que le camion de pompiers 0 arrivera dans environ 20 s. [#878]
+- 17:30:34 · F3 (Av. de Carthage x Av. Farha"
+template,ar,3,emergency,answerable,True,False,10,1.0,6.6,"شاحنة الإطفاء 0: التقاطعات F3, F4؛ مُنح الأخضر أو الأولوية 3 مرة، ورُفض 0 مرة. خطوة بخطوة:
+- 17:30:34 · نبّه المشرف العام F3 (Av. de Carthage x Av. Farhat Hached) بأن شاحنة الإطفاء 0 ستصل خلال حوالي 20 ثانية. [#878]
+- 17:30:34 · أبقى F3 (Av. de Carthage x Av. Farhat Hached) الضوء أخضر لـ شاحنة الإطف"
+template,en,4,bus,answerable,True,False,15,1.0,0.7,"Buses only get priority when they are late: when the gap since the previous bus of the same line is more than 1.5 × the 4-minute schedule (6 minutes). An on-time or early bus gets nothing, so buses do not bunch further. The first bus of a line cannot be judged yet, so it gets no priority either.
+
+Wh"
+template,fr,4,bus,answerable,True,False,15,1.0,0.3,"Un bus n'obtient la priorité que s'il est en retard : quand l'écart avec le bus précédent de la même ligne dépasse 1,5 × l'horaire de 4 minutes (6 minutes). Un bus à l'heure ou en avance n'obtient rien. Le premier bus d'une ligne ne peut pas encore être jugé.
+
+Ce qui s'est passé jusqu'ici (18:20:05)"
+template,ar,4,bus,answerable,True,False,15,1.0,0.3,"لا تحصل الحافلة على الأولوية إلا إذا كانت متأخرة: عندما يتجاوز الفارق مع الحافلة السابقة على نفس الخط 1.5 ضعف الجدول (6 دقائق بدل 4). الحافلة في موعدها أو المبكرة لا تحصل على شيء، ولا يمكن تقييم أول حافلة على الخط بعد.
+
+ما حدث حتى الآن (18:20:05):
+- طلبت 13 حافلة متأخرة الأولوية (الحافلة 1 من الخط L"
+template,en,5,incident,answerable,True,False,15,1.0,0.6,"The incident agent flags a lane when a vehicle stays stopped away from the queue at the light; it reports a pattern and a confidence, never a cause. Long queues are reported as congestion, and the rerouting agent checks whether a detour would save time (advice only).
+
+What happened in this run so fa"
+template,fr,5,incident,answerable,True,False,15,1.0,0.4,"L'agent incidents signale une voie quand un véhicule reste arrêté hors de la file au feu ; il donne un motif et une confiance, jamais une cause. Les longues files sont signalées comme congestion, et l'agent d'itinéraires vérifie si un détour ferait gagner du temps (conseil seulement).
+
+Ce qui s'est "
+template,ar,5,incident,answerable,True,False,15,1.0,0.4,"يرصد وكيل الحوادث المسار عندما تبقى مركبة متوقفة بعيدًا عن طابور الإشارة، ويذكر نمطًا ودرجة ثقة لا سببًا. وتُعلَن الطوابير الطويلة كازدحام، ويتحقق وكيل المسارات من جدوى طريق بديل (نصيحة فقط).
+
+ما حدث حتى الآن (18:20:05):
+- ازدحام شديد على Avenue de Carthage (من B3 إلى F3): 10 مركبة متوقفة. حدث ذلك 1"
+template,en,6,weather,answerable,True,False,1,1.0,0.6,"When rain is reported, every junction lengthens its yellow and crossing times, because vehicles brake longer and people walk slower. A flooded road is avoided by detours.
+
+What happened in this run so far (18:20:05):
+- Rain reported (60% intensity): every junction lengthened its yellow and crossing "
+template,fr,6,weather,answerable,True,False,1,1.0,0.3,"Quand il pleut, chaque carrefour allonge le jaune et le temps de traversée, car les véhicules freinent plus longtemps et les piétons marchent plus lentement. Une route inondée est contournée.
+
+Ce qui s'est passé jusqu'ici (18:20:05) :
+- Pluie signalée (intensité 60%) : chaque carrefour a allongé le "
+template,ar,6,weather,answerable,True,False,1,1.0,0.3,"عند هطول المطر يمدّد كل تقاطع زمن الأصفر وزمن العبور، لأن المركبات تحتاج مسافة كبح أطول والمشاة أبطأ. ويتم تجنّب الطريق المغمور بالمياه.
+
+ما حدث حتى الآن (18:20:05):
+- أُبلغ عن أمطار (شدة 60%): مدّد كل تقاطع زمن الأصفر والعبور؛ ويُتوقع أن تكون الحركة أبطأ بنحو 43%. [#135]"
+template,en,7,pedestrian,answerable,True,False,12,1.0,0.4,"Pedestrians are protected by a safety rule: the next green waits until the crossing is empty (up to 30 s). When people have waited too long, the pedestrian agent asks for a walk signal.
+
+What happened in this run so far (18:20:05):
+- 1 pedestrian(s) had waited 30 s at crossing 3 at F4 (Av. Mohamed V"
+template,fr,7,pedestrian,answerable,True,False,12,1.0,0.4,"Les piétons sont protégés par une règle de sécurité : le vert suivant attend que le passage soit vide (jusqu'à 30 s). Quand l'attente est trop longue, l'agent piéton demande un feu piéton.
+
+Ce qui s'est passé jusqu'ici (18:20:05) :
+- 1 piéton(s) attendaient depuis 30 s à le passage 3 à F4 (Av. Moham"
+template,ar,7,pedestrian,answerable,True,False,12,1.0,0.4,"يحمي المشاةَ قاعدةُ سلامة: ينتظر الضوء الأخضر التالي حتى يخلو ممر العبور (حتى 30 ثانية). وعندما يطول الانتظار يطلب وكيل المشاة إشارة عبور.
+
+ما حدث حتى الآن (18:20:05):
+- انتظر 1 من المشاة 30 ثانية عند ممر المشاة 3 عند F4 (Av. Mohamed V (south) x Av. Farhat Hached)، فطُلبت إشارة عبور. حدث ذلك 36 مرة "
+template,en,8,trick,trick,True,True,0,,6.8,"ABSTAIN: no log entry mentions ambulance9. Emergency vehicles in this run so far: ambulance0, ambulance1, ambulance2, ambulance3, fire0, so I cannot explain it without guessing."
+template,fr,8,trick,trick,True,True,0,,7.6,"ABSTAIN: aucune entrée du journal ne correspond à cette question, je ne peux donc pas l'expliquer sans deviner."
+template,ar,8,trick,trick,True,True,0,,7.4,ABSTAIN: لا يوجد قرار في السجل يطابق هذا السؤال، لذلك لا يمكنني الشرح دون تخمين.
+template,en,9,trick,trick,True,True,0,,7.1,"ABSTAIN: no log entry mentions police5. Emergency vehicles in this run so far: ambulance0, ambulance1, ambulance2, ambulance3, fire0, so I cannot explain it without guessing."
+template,fr,9,trick,trick,True,True,0,,6.9,"ABSTAIN: aucune entrée du journal ne correspond à cette question, je ne peux donc pas l'expliquer sans deviner."
+template,ar,9,trick,trick,True,True,0,,6.3,ABSTAIN: لا يوجد قرار في السجل يطابق هذا السؤال، لذلك لا يمكنني الشرح دون تخمين.
+template,en,10,trick,trick,True,True,0,,6.6,"ABSTAIN: no log entry mentions fire7. Emergency vehicles in this run so far: ambulance0, ambulance1, ambulance2, ambulance3, fire0, so I cannot explain it without guessing."
+template,fr,10,trick,trick,True,True,0,,6.4,"ABSTAIN: aucune entrée du journal ne correspond à cette question, je ne peux donc pas l'expliquer sans deviner."
+template,ar,10,trick,trick,True,True,0,,7.1,ABSTAIN: لا يوجد قرار في السجل يطابق هذا السؤال، لذلك لا يمكنني الشرح دون تخمين.
+llm agent,en,1,emergency,answerable,True,False,10,1.0,188.4,"Ambulance 0 passed 3 junction(s) (F1, F3, F4). It got a green 4 times: 2 switches made for it and 2 greens already in its direction and held; refused 0 times. Junctions ahead were warned 3 times. Step by step:
+- 17:06:14 · The supermaster warned F4 (Av. Mohamed V (south) x Av. Farhat Hached) that am"
+llm agent,fr,1,emergency,answerable,True,False,10,1.0,207.6,"L'ambulance 0 : carrefours F1, F3, F4 ; vert ou priorité accordés 4 fois, refusés 0 fois. Étape par étape :
+- 17:06:14 · Le superviseur a prévenu F4 (Av. Mohamed V (south) x Av. Farhat Hached) que l'ambulance 0 arrivera dans environ 37 s. [#166]
+- 17:06:14 · F4 (Av. Mohamed V (south) x Av. Farhat Ha"
+llm agent,ar,1,emergency,answerable,True,False,10,1.0,189.2,"سيارة الإسعاف 0: التقاطعات F1, F3, F4؛ مُنح الأخضر أو الأولوية 4 مرة، ورُفض 0 مرة. خطوة بخطوة:
+- 17:06:14 · نبّه المشرف العام F4 (Av. Mohamed V (south) x Av. Farhat Hached) بأن سيارة الإسعاف 0 ستصل خلال حوالي 37 ثانية. [#166]
+- 17:06:14 · أبقى F4 (Av. Mohamed V (south) x Av. Farhat Hached) الضوء أخض"
+llm agent,en,2,emergency,answerable,True,False,10,1.0,211.1,"Ambulance 2 passed 3 junction(s) (B3, B4, F4). It got a green 4 times: 2 switches made for it and 2 greens already in its direction and held; refused 0 times. Junctions ahead were warned 3 times. Step by step:
+- 17:39:35 · The supermaster warned F4 (Av. Mohamed V (south) x Av. Farhat Hached) that am"
+llm agent,fr,2,emergency,answerable,True,False,10,1.0,197.3,"L'ambulance 2 : carrefours B3, B4, F4 ; vert ou priorité accordés 4 fois, refusés 0 fois. Étape par étape :
+- 17:39:35 · Le superviseur a prévenu F4 (Av. Mohamed V (south) x Av. Farhat Hached) que l'ambulance 2 arrivera dans environ 34 s. [#1144]
+- 17:39:36 · F4 (Av. Mohamed V (south) x Av. Farhat H"
+llm agent,ar,2,emergency,answerable,True,False,10,1.0,178.5,"سيارة الإسعاف 2: التقاطعات B3, B4, F4؛ مُنح الأخضر أو الأولوية 4 مرة، ورُفض 0 مرة. خطوة بخطوة:
+- 17:39:35 · نبّه المشرف العام F4 (Av. Mohamed V (south) x Av. Farhat Hached) بأن سيارة الإسعاف 2 ستصل خلال حوالي 34 ثانية. [#1144]
+- 17:39:36 · أبقى F4 (Av. Mohamed V (south) x Av. Farhat Hached) الضوء أخ"
+llm agent,en,3,emergency,answerable,True,False,10,1.0,239.3,"Fire truck 0 passed 2 junction(s) (F3, F4). It got a green 3 times: 1 switch made for it and 2 greens already in its direction and held; refused 0 times. Junctions ahead were warned 2 times. Step by step:
+- 17:30:34 · The supermaster warned F3 (Av. de Carthage x Av. Farhat Hached) that fire truck 0 "
+llm agent,fr,3,emergency,answerable,True,False,10,1.0,197.3,"Le camion de pompiers 0 : carrefours F3, F4 ; vert ou priorité accordés 3 fois, refusés 0 fois. Étape par étape :
+- 17:30:34 · Le superviseur a prévenu F3 (Av. de Carthage x Av. Farhat Hached) que le camion de pompiers 0 arrivera dans environ 20 s. [#878]
+- 17:30:34 · F3 (Av. de Carthage x Av. Farha"
+llm agent,ar,3,emergency,answerable,True,False,10,1.0,171.0,"شاحنة الإطفاء 0: التقاطعات F3, F4؛ مُنح الأخضر أو الأولوية 3 مرة، ورُفض 0 مرة. خطوة بخطوة:
+- 17:30:34 · نبّه المشرف العام F3 (Av. de Carthage x Av. Farhat Hached) بأن شاحنة الإطفاء 0 ستصل خلال حوالي 20 ثانية. [#878]
+- 17:30:34 · أبقى F3 (Av. de Carthage x Av. Farhat Hached) الضوء أخضر لـ شاحنة الإطف"
+llm agent,en,4,bus,answerable,True,False,15,1.0,216.6,"Buses only get priority when they are late: when the gap since the previous bus of the same line is more than 1.5 × the 4-minute schedule (6 minutes). An on-time or early bus gets nothing, so buses do not bunch further. The first bus of a line cannot be judged yet, so it gets no priority either.
+
+Wh"
+llm agent,fr,4,bus,answerable,True,False,15,1.0,183.7,"Un bus n'obtient la priorité que s'il est en retard : quand l'écart avec le bus précédent de la même ligne dépasse 1,5 × l'horaire de 4 minutes (6 minutes). Un bus à l'heure ou en avance n'obtient rien. Le premier bus d'une ligne ne peut pas encore être jugé.
+
+Ce qui s'est passé jusqu'ici (18:20:05)"
+llm agent,ar,4,bus,answerable,True,False,15,1.0,173.8,"لا تحصل الحافلة على الأولوية إلا إذا كانت متأخرة: عندما يتجاوز الفارق مع الحافلة السابقة على نفس الخط 1.5 ضعف الجدول (6 دقائق بدل 4). الحافلة في موعدها أو المبكرة لا تحصل على شيء، ولا يمكن تقييم أول حافلة على الخط بعد.
+
+ما حدث حتى الآن (18:20:05):
+- طلبت 13 حافلة متأخرة الأولوية (الحافلة 1 من الخط L"
+llm agent,en,5,incident,answerable,True,False,15,1.0,167.4,"The incident agent flags a lane when a vehicle stays stopped away from the queue at the light; it reports a pattern and a confidence, never a cause. Long queues are reported as congestion, and the rerouting agent checks whether a detour would save time (advice only).
+
+What happened in this run so fa"
+llm agent,fr,5,incident,answerable,True,False,15,1.0,163.3,"L'agent incidents signale une voie quand un véhicule reste arrêté hors de la file au feu ; il donne un motif et une confiance, jamais une cause. Les longues files sont signalées comme congestion, et l'agent d'itinéraires vérifie si un détour ferait gagner du temps (conseil seulement).
+
+Ce qui s'est "
+llm agent,ar,5,incident,answerable,True,False,15,1.0,174.3,"يرصد وكيل الحوادث المسار عندما تبقى مركبة متوقفة بعيدًا عن طابور الإشارة، ويذكر نمطًا ودرجة ثقة لا سببًا. وتُعلَن الطوابير الطويلة كازدحام، ويتحقق وكيل المسارات من جدوى طريق بديل (نصيحة فقط).
+
+ما حدث حتى الآن (18:20:05):
+- ازدحام شديد على Avenue de Carthage (من B3 إلى F3): 10 مركبة متوقفة. حدث ذلك 1"
+llm agent,en,6,weather,answerable,True,False,1,1.0,170.4,"When rain is reported, every junction lengthens its yellow and crossing times, because vehicles brake longer and people walk slower. A flooded road is avoided by detours.
+
+What happened in this run so far (18:20:05):
+- Rain reported (60% intensity): every junction lengthened its yellow and crossing "
+llm agent,fr,6,weather,answerable,True,False,1,1.0,162.8,"Quand il pleut, chaque carrefour allonge le jaune et le temps de traversée, car les véhicules freinent plus longtemps et les piétons marchent plus lentement. Une route inondée est contournée.
+
+Ce qui s'est passé jusqu'ici (18:20:05) :
+- Pluie signalée (intensité 60%) : chaque carrefour a allongé le "
+llm agent,ar,6,weather,answerable,True,False,1,1.0,164.5,"عند هطول المطر يمدّد كل تقاطع زمن الأصفر وزمن العبور، لأن المركبات تحتاج مسافة كبح أطول والمشاة أبطأ. ويتم تجنّب الطريق المغمور بالمياه.
+
+ما حدث حتى الآن (18:20:05):
+- أُبلغ عن أمطار (شدة 60%): مدّد كل تقاطع زمن الأصفر والعبور؛ ويُتوقع أن تكون الحركة أبطأ بنحو 43%. [#135]"
+llm agent,en,7,pedestrian,answerable,True,False,12,1.0,173.6,"Pedestrians are protected by a safety rule: the next green waits until the crossing is empty (up to 30 s). When people have waited too long, the pedestrian agent asks for a walk signal.
+
+What happened in this run so far (18:20:05):
+- 1 pedestrian(s) had waited 30 s at crossing 3 at F4 (Av. Mohamed V"
+llm agent,fr,7,pedestrian,answerable,True,False,12,1.0,186.0,"Les piétons sont protégés par une règle de sécurité : le vert suivant attend que le passage soit vide (jusqu'à 30 s). Quand l'attente est trop longue, l'agent piéton demande un feu piéton.
+
+Ce qui s'est passé jusqu'ici (18:20:05) :
+- 1 piéton(s) attendaient depuis 30 s à le passage 3 à F4 (Av. Moham"
+llm agent,ar,7,pedestrian,answerable,True,False,12,1.0,184.0,"يحمي المشاةَ قاعدةُ سلامة: ينتظر الضوء الأخضر التالي حتى يخلو ممر العبور (حتى 30 ثانية). وعندما يطول الانتظار يطلب وكيل المشاة إشارة عبور.
+
+ما حدث حتى الآن (18:20:05):
+- انتظر 1 من المشاة 30 ثانية عند ممر المشاة 3 عند F4 (Av. Mohamed V (south) x Av. Farhat Hached)، فطُلبت إشارة عبور. حدث ذلك 36 مرة "
+llm agent,en,8,trick,trick,True,True,0,,179.9,"ABSTAIN: no log entry mentions ambulance9. Emergency vehicles in this run so far: ambulance0, ambulance1, ambulance2, ambulance3, fire0, so I cannot explain it without guessing."
+llm agent,fr,8,trick,trick,True,True,0,,173.0,"ABSTAIN: aucune entrée du journal ne correspond à cette question, je ne peux donc pas l'expliquer sans deviner."
+llm agent,ar,8,trick,trick,True,True,0,,135.0,ABSTAIN: لا يوجد قرار في السجل يطابق هذا السؤال، لذلك لا يمكنني الشرح دون تخمين.
+llm agent,en,9,trick,trick,True,True,0,,147.5,"ABSTAIN: no log entry mentions police5. Emergency vehicles in this run so far: ambulance0, ambulance1, ambulance2, ambulance3, fire0, so I cannot explain it without guessing."
+llm agent,fr,9,trick,trick,True,True,0,,158.1,"ABSTAIN: aucune entrée du journal ne correspond à cette question, je ne peux donc pas l'expliquer sans deviner."
+llm agent,ar,9,trick,trick,True,True,0,,120.5,ABSTAIN: لا يوجد قرار في السجل يطابق هذا السؤال، لذلك لا يمكنني الشرح دون تخمين.
+llm agent,en,10,trick,trick,True,True,0,,146.5,"ABSTAIN: no log entry mentions fire7. Emergency vehicles in this run so far: ambulance0, ambulance1, ambulance2, ambulance3, fire0, so I cannot explain it without guessing."
+llm agent,fr,10,trick,trick,True,True,0,,154.8,"ABSTAIN: aucune entrée du journal ne correspond à cette question, je ne peux donc pas l'expliquer sans deviner."
+llm agent,ar,10,trick,trick,True,True,0,,145.2,ABSTAIN: لا يوجد قرار في السجل يطابق هذا السؤال، لذلك لا يمكنني الشرح دون تخمين.

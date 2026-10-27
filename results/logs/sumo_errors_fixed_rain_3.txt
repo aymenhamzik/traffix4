@@ -1,0 +1,1728 @@
+Warning: Not using public transport line 'L2_north' for routing persons. It has less than two usable stops.
+Warning: Not using public transport line 'L1_east' for routing persons. It has less than two usable stops.
+Warning: Vehicle 'veh750' performs emergency braking on lane ':B4_5_0' with decel=9.00, wished=3.82, severity=1.00, time=720.00.
+Warning: Vehicle 'veh1568' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh1568' found.
+Warning: Vehicle 'veh1766' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh1766' found.
+Warning: No connection between edge 'B4_B3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh1767' found.
+Warning: No connection between edge 'B2_B3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh1838' found.
+Warning: No connection between edge 'F1_F3' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh1845' found.
+Warning: No connection between edge 'F1_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh1861' found.
+Warning: No connection between edge 'F1_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh1873' found.
+Warning: Vehicle 'veh1902' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh1902' found.
+Warning: Vehicle 'veh1989' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2018' found.
+Warning: No connection between edge 'tunis_marine_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2028' found.
+Warning: Vehicle 'veh2030' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2030' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2037' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2038' found.
+Warning: Vehicle 'veh2044' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2044' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2045' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2063' found.
+Warning: No connection between edge 'paris_n_B3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2072' found.
+Warning: No connection between edge 'paris_n_B3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2076' found.
+Warning: Vehicle 'veh2085' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2085' found.
+Warning: Vehicle 'veh2097' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2097' found.
+Warning: Vehicle 'veh2130' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2130' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2146' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2203' found.
+Warning: No connection between edge 'mv_n_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2219' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2235' found.
+Warning: Vehicle 'veh2267' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2267' found.
+Warning: Vehicle 'veh2270' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2270' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2282' found.
+Warning: Teleporting vehicle 'veh1873'; waited too long (wrong lane), lane='F1_F3_1', time=2104.00.
+Warning: Vehicle 'veh2294' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2294' found.
+Warning: Vehicle 'veh2304' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2304' found.
+Warning: Teleporting vehicle 'veh1568'; waited too long (wrong lane), lane='B3_F3_2', time=2126.00.
+Warning: Vehicle 'veh1873' ends teleporting on edge 'F4_B4', time=2133.00.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2328' found.
+Warning: Vehicle 'veh1568' teleports beyond arrival edge 'F3_F4', time=2154.00.
+Warning: Vehicle 'veh2332' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2332' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2352' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2359' found.
+Warning: Vehicle 'veh2373' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2373' found.
+Warning: Teleporting vehicle 'veh2018'; waited too long (wrong lane), lane='fh_w_F1_1', time=2203.00.
+Warning: Teleporting vehicle 'veh2037'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=2203.00.
+Warning: Vehicle 'veh2018' ends teleporting on edge 'B4_B3', time=2203.00.
+Warning: Vehicle 'veh2037' ends teleporting on edge 'F4_B4', time=2203.00.
+Warning: Teleporting vehicle 'veh2028'; waited too long (wrong lane), lane='tunis_marine_B4_1', time=2208.00.
+Warning: Vehicle 'veh2028' ends teleporting on edge 'F4_B4', time=2208.00.
+Warning: Teleporting vehicle 'veh2044'; waited too long (wrong lane), lane='carthage_s_F3_1', time=2209.00.
+Warning: Teleporting vehicle 'veh2038'; waited too long (wrong lane), lane='rome_n_B1_1', time=2215.00.
+Warning: Vehicle 'veh2038' ends teleporting on edge 'B4_B3', time=2215.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2390' found.
+Warning: Vehicle 'veh2392' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2402' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2404' found.
+Warning: Vehicle 'veh2044' teleports beyond arrival edge 'F3_F4', time=2237.00.
+Warning: Teleporting vehicle 'veh2072'; waited too long (wrong lane), lane='paris_n_B3_1', time=2241.00.
+Warning: Vehicle 'veh2072' ends teleporting on edge 'F4_B4', time=2241.00.
+Warning: Teleporting vehicle 'veh2076'; waited too long (wrong lane), lane='paris_n_B3_1', time=2247.00.
+Warning: Vehicle 'veh2076' ends teleporting on edge 'F4_B4', time=2247.00.
+Warning: Teleporting vehicle 'veh2045'; waited too long (wrong lane), lane='rome_s_F1_1', time=2249.00.
+Warning: Vehicle 'veh2045' ends teleporting on edge 'B4_B3', time=2249.00.
+Warning: Teleporting vehicle 'veh2030'; waited too long (wrong lane), lane='tunis_marine_B4_1', time=2264.00.
+Warning: No connection between edge 'fh_w_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2455' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2461' found.
+Warning: Vehicle 'veh2030' teleports beyond arrival edge 'F3_F4', time=2292.00.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2482' found.
+Warning: Teleporting vehicle 'veh2146'; waited too long (wrong lane), lane='carthage_s_F3_1', time=2306.00.
+Warning: Vehicle 'veh2146' ends teleporting on edge 'F4_B4', time=2306.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2491' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2494' found.
+Warning: Vehicle 'veh2499' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2499' found.
+Warning: Vehicle 'veh2505' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2505' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2506' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2536' found.
+Warning: Teleporting vehicle 'veh2219'; waited too long (wrong lane), lane='mv_n_B4_1', time=2368.00.
+Warning: Vehicle 'veh2219' ends teleporting on edge 'F4_B4', time=2368.00.
+Warning: No connection between edge 'mv_n_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2551' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2552' found.
+Warning: Vehicle 'veh2575' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Teleporting vehicle 'veh2267'; waited too long (wrong lane), lane='mv_n_B4_1', time=2415.00.
+Warning: No connection between edge 'fh_w_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2585' found.
+Warning: Teleporting vehicle 'veh1845'; waited too long (wrong lane), lane='F1_F3_1', time=2421.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2593' found.
+Warning: Teleporting vehicle 'veh2270'; waited too long (wrong lane), lane='mv_n_B4_3', time=2428.00.
+Warning: No connection between edge 'carthage_s_F3' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2609' found.
+Warning: Vehicle 'veh2267' teleports beyond arrival edge 'F3_F4', time=2443.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2552' found.
+Warning: Vehicle 'veh2619' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2619' found.
+Warning: Vehicle 'veh1845' ends teleporting on edge 'F4_B4', time=2451.00.
+Warning: Vehicle 'veh2270' teleports beyond arrival edge 'F3_F4', time=2456.00.
+Warning: Vehicle 'veh2647' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2647' found.
+Warning: Teleporting vehicle 'veh1767'; waited too long (wrong lane), lane='B3_F3_1', time=2474.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2660' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2593' found.
+Warning: Vehicle 'veh2674' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2674' found.
+Warning: Vehicle 'veh1767' ends teleporting on edge 'F4_B4', time=2503.00.
+Warning: Teleporting vehicle 'veh2352'; waited too long (wrong lane), lane='bab_bhar_B1_2', time=2507.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2552' found.
+Warning: Vehicle 'veh2352' ends teleporting on edge 'F4_B4', time=2507.00.
+Warning: Teleporting vehicle 'veh2063'; waited too long (wrong lane), lane='rome_n_B1_1', time=2520.00.
+Warning: Vehicle 'veh2063' ends teleporting on edge 'B4_B3', time=2520.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2717' found.
+Warning: Vehicle 'veh2726' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2726' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2593' found.
+Warning: Teleporting vehicle 'veh2130'; waited too long (wrong lane), lane='paris_n_B3_1', time=2547.00.
+Warning: Teleporting vehicle 'veh1766'; waited too long (wrong lane), lane='B3_F3_2', time=2561.00.
+Warning: Teleporting vehicle 'veh2085'; waited too long (wrong lane), lane='fh_w_F1_1', time=2563.00.
+Warning: No connection between edge 'mv_n_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2753' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2552' found.
+Warning: Vehicle 'veh2130' teleports beyond arrival edge 'F3_F4', time=2575.00.
+Warning: Teleporting vehicle 'veh2402'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=2578.00.
+Warning: Vehicle 'veh2402' ends teleporting on edge 'B4_B3', time=2578.00.
+Warning: Teleporting vehicle 'veh2304'; waited too long (wrong lane), lane='paris_n_B3_1', time=2586.00.
+Warning: Vehicle 'veh1766' teleports beyond arrival edge 'F3_F4', time=2589.00.
+Warning: Teleporting vehicle 'veh2282'; waited too long (wrong lane), lane='carthage_s_F3_1', time=2590.00.
+Warning: No connection between edge 'mv_n_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh2782' found.
+Warning: Vehicle 'veh2282' ends teleporting on edge 'B4_B3', time=2590.00.
+Warning: Vehicle 'veh2085' teleports beyond arrival edge 'F3_F4', time=2591.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2717' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2793' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2593' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2806' found.
+Warning: Vehicle 'veh2304' teleports beyond arrival edge 'F3_F4', time=2614.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2717' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2593' found.
+Warning: Teleporting vehicle 'veh2482'; waited too long (wrong lane), lane='carthage_s_F3_2', time=2686.00.
+Warning: Vehicle 'veh2482' ends teleporting on edge 'F4_B4', time=2686.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: Vehicle 'veh2897' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2717' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2908' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2593' found.
+Warning: Teleporting vehicle 'veh1861'; waited too long (wrong lane), lane='F1_F3_1', time=2726.00.
+Warning: Teleporting vehicle 'veh2505'; waited too long (wrong lane), lane='mv_n_B4_2', time=2733.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: Vehicle 'veh2927' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh1861' ends teleporting on edge 'F4_B4', time=2755.00.
+Warning: Teleporting vehicle 'veh2551'; waited too long (wrong lane), lane='mv_n_B4_2', time=2760.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: Vehicle 'veh2551' ends teleporting on edge 'F4_B4', time=2760.00.
+Warning: Vehicle 'veh2505' teleports beyond arrival edge 'F3_F4', time=2761.00.
+Warning: Vehicle 'veh2958' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh2958' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2717' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: Vehicle 'veh3021' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3036' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3036' found.
+Warning: Teleporting vehicle 'veh2461'; waited too long (wrong lane), lane='bab_bhar_B1_2', time=2852.00.
+Warning: Vehicle 'veh3040' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3040' found.
+Warning: Vehicle 'veh2461' ends teleporting on edge 'F4_B4', time=2852.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: Teleporting vehicle 'veh1902'; waited too long (wrong lane), lane='B3_F3_2', time=2867.00.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: Vehicle 'veh3060' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3060' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: Teleporting vehicle 'veh2097'; waited too long (wrong lane), lane='carthage_s_F3_1', time=2895.00.
+Warning: Vehicle 'veh1902' teleports beyond arrival edge 'F3_F4', time=2895.00.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3084' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3087' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3087' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'mv_n_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3103' found.
+Warning: Vehicle 'veh2097' teleports beyond arrival edge 'F3_F4', time=2923.00.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3112' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3112' found.
+Warning: Teleporting vehicle 'veh2203'; waited too long (wrong lane), lane='fh_w_F1_1', time=2931.00.
+Warning: Vehicle 'veh2203' ends teleporting on edge 'B4_B3', time=2931.00.
+Warning: Teleporting vehicle 'veh2619'; waited too long (wrong lane), lane='paris_n_B3_1', time=2932.00.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: Vehicle 'veh3119' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3127' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh2619' teleports beyond arrival edge 'F3_F4', time=2960.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'mv_n_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3156' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Teleporting vehicle 'veh2494'; waited too long (wrong lane), lane='carthage_s_F3_1', time=2992.00.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: Vehicle 'veh2494' ends teleporting on edge 'F4_B4', time=2992.00.
+Warning: Teleporting vehicle 'veh2138'; waited too long (jam), lane='carthage_s_F3_1', time=2995.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: Vehicle 'veh2138' ends teleporting on edge 'F3_B3', time=2995.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3193' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Teleporting vehicle 'veh2674'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=3020.00.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Teleporting vehicle 'veh2753'; waited too long (wrong lane), lane='mv_n_B4_1', time=3038.00.
+Warning: Vehicle 'veh2753' ends teleporting on edge 'F4_B4', time=3038.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh2674' teleports beyond arrival edge 'F3_F4', time=3048.00.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'tunis_marine_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3235' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: Teleporting vehicle 'veh2782'; waited too long (wrong lane), lane='mv_n_B4_2', time=3064.00.
+Warning: Vehicle 'veh2782' ends teleporting on edge 'F4_B4', time=3064.00.
+Warning: Vehicle 'veh3242' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3244' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3244' found.
+Warning: Teleporting vehicle 'veh2332'; waited too long (wrong lane), lane='rome_n_B1_1', time=3072.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3248' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3248' found.
+Warning: Vehicle 'veh3249' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Teleporting vehicle 'veh2491'; waited too long (wrong lane), lane='rome_s_F1_1', time=3080.00.
+Warning: Vehicle 'veh3254' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3254' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh2491' ends teleporting on edge 'B4_B3', time=3080.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh2332' teleports beyond arrival edge 'F3_F4', time=3100.00.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3281' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3297' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3338' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3342' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: Teleporting vehicle 'veh1838'; waited too long (wrong lane), lane='B3_F3_1', time=3175.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Teleporting vehicle 'veh3036'; waited too long (wrong lane), lane='mv_s_F4_1', time=3192.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3385' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Teleporting vehicle 'veh2328'; waited too long (wrong lane), lane='carthage_s_F3_2', time=3204.00.
+Warning: Vehicle 'veh1838' ends teleporting on edge 'F4_B4', time=3204.00.
+Warning: Vehicle 'veh2328' ends teleporting on edge 'F4_B4', time=3204.00.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3394' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3036' teleports beyond arrival edge 'F3_F4', time=3220.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3401' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Teleporting vehicle 'veh3060'; waited too long (wrong lane), lane='tunis_marine_B4_1', time=3245.00.
+Warning: Teleporting vehicle 'veh3103'; waited too long (wrong lane), lane='mv_n_B4_1', time=3250.00.
+Warning: Vehicle 'veh3103' ends teleporting on edge 'F4_B4', time=3250.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3429' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3060' teleports beyond arrival edge 'F3_F4', time=3273.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: Vehicle 'veh3443' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3443' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Teleporting vehicle 'veh2294'; waited too long (wrong lane), lane='fh_w_F1_1', time=3280.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Teleporting vehicle 'veh2958'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=3304.00.
+Warning: Vehicle 'veh2294' teleports beyond arrival edge 'F3_F4', time=3308.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3480' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh2958' teleports beyond arrival edge 'F3_F4', time=3332.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Teleporting vehicle 'veh3087'; waited too long (wrong lane), lane='tunis_marine_B4_2', time=3349.00.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: No connection between edge 'carthage_s_F3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3541' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3087' teleports beyond arrival edge 'F3_F4', time=3377.00.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Teleporting vehicle 'veh2499'; waited too long (wrong lane), lane='carthage_s_F3_1', time=3380.00.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3549' found.
+Warning: No connection between edge 'bab_bhar_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3552' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh3244'; waited too long (wrong lane), lane='paris_n_B3_1', time=3401.00.
+Warning: Teleporting vehicle 'veh3127'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=3401.00.
+Warning: Vehicle 'veh3564' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3127' ends teleporting on edge 'F4_B4', time=3401.00.
+Warning: Teleporting vehicle 'veh3156'; waited too long (wrong lane), lane='mv_n_B4_1', time=3403.00.
+Warning: Vehicle 'veh3156' ends teleporting on edge 'F4_B4', time=3403.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh2499' teleports beyond arrival edge 'F3_F4', time=3408.00.
+Warning: Teleporting vehicle 'veh2359'; waited too long (wrong lane), lane='rome_n_B1_1', time=3412.00.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: Vehicle 'veh2359' ends teleporting on edge 'B4_B3', time=3412.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: Teleporting vehicle 'veh2536'; waited too long (wrong lane), lane='rome_s_F1_1', time=3420.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: Vehicle 'veh2536' ends teleporting on edge 'B4_B3', time=3420.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3244' teleports beyond arrival edge 'F3_F4', time=3429.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: No connection between edge 'tunis_marine_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3589' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'tunis_marine_B4' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3609' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3607' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: Teleporting vehicle 'veh2235'; waited too long (wrong lane), lane='carthage_s_F3_1', time=3510.00.
+Warning: Vehicle 'veh2235' ends teleporting on edge 'B4_B3', time=3510.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3676' is not allowed to depart on any lane of edge 'F3_F4'.
+Warning: Vehicle 'veh3058' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3058' found.
+Warning: Vehicle 'veh3684' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3684' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'paris_n_B3' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3686' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: Vehicle 'veh3698' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3698' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3085' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3086' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: No connection between edge 'fh_w_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3719' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Teleporting vehicle 'veh3235'; waited too long (wrong lane), lane='tunis_marine_B4_1', time=3602.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3235' ends teleporting on edge 'F4_B4', time=3603.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh2404'; waited too long (wrong lane), lane='fh_w_F1_1', time=3641.00.
+Warning: Vehicle 'veh2404' ends teleporting on edge 'B4_B3', time=3641.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Teleporting vehicle 'veh3254'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=3673.00.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3254' teleports beyond arrival edge 'F3_F4', time=3701.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: Teleporting vehicle 'veh2373'; waited too long (wrong lane), lane='rome_n_B1_1', time=3720.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: Vehicle 'veh2373' teleports beyond arrival edge 'F3_F4', time=3748.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh3394'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=3760.00.
+Warning: Vehicle 'veh3394' ends teleporting on edge 'F4_B4', time=3760.00.
+Warning: Teleporting vehicle 'veh2609'; waited too long (wrong lane), lane='carthage_s_F3_1', time=3763.00.
+Warning: Vehicle 'veh2609' ends teleporting on edge 'B4_B3', time=3763.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Teleporting vehicle 'veh2660'; waited too long (wrong lane), lane='rome_s_F1_1', time=3800.00.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh2660' ends teleporting on edge 'B4_B3', time=3800.00.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Teleporting vehicle 'veh2908'; waited too long (wrong lane), lane='carthage_s_F3_2', time=3853.00.
+Warning: Vehicle 'veh2908' ends teleporting on edge 'B4_B3', time=3853.00.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Teleporting vehicle 'veh3684'; waited too long (wrong lane), lane='mv_n_B4_1', time=3862.00.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh3686'; waited too long (wrong lane), lane='paris_n_B3_1', time=3878.00.
+Warning: Vehicle 'veh3686' ends teleporting on edge 'F4_B4', time=3878.00.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3111' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3111' found.
+Warning: Vehicle 'veh3684' teleports beyond arrival edge 'F3_F4', time=3890.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: Teleporting vehicle 'veh2455'; waited too long (wrong lane), lane='fh_w_F1_1', time=3945.00.
+Warning: Vehicle 'veh2455' ends teleporting on edge 'F4_B4', time=3945.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: Teleporting vehicle 'veh3609'; waited too long (wrong lane), lane='tunis_marine_B4_1', time=3960.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: Vehicle 'veh3609' ends teleporting on edge 'F4_B4', time=3960.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Teleporting vehicle 'veh3429'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=4024.00.
+Warning: Vehicle 'veh3429' ends teleporting on edge 'F4_B4', time=4024.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Teleporting vehicle 'veh2390'; waited too long (wrong lane), lane='rome_n_B1_1', time=4040.00.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh2390' ends teleporting on edge 'F4_B4', time=4040.00.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: Teleporting vehicle 'veh3589'; waited too long (wrong lane), lane='tunis_marine_B4_1', time=4055.00.
+Warning: Vehicle 'veh3589' ends teleporting on edge 'F4_B4', time=4055.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: Teleporting vehicle 'veh3443'; waited too long (wrong lane), lane='bab_bhar_B1_2', time=4065.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3443' teleports beyond arrival edge 'F3_F4', time=4093.00.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Teleporting vehicle 'veh3040'; waited too long (wrong lane), lane='carthage_s_F3_1', time=4102.00.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Vehicle 'veh3040' teleports beyond arrival edge 'F3_F4', time=4130.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2888' found.
+Warning: Teleporting vehicle 'veh2726'; waited too long (wrong lane), lane='rome_s_F1_1', time=4141.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: Vehicle 'veh2726' teleports beyond arrival edge 'F3_F4', time=4169.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh2924' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3158' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Vehicle 'veh3223' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3223' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Teleporting vehicle 'veh2506'; waited too long (wrong lane), lane='fh_w_F1_1', time=4250.00.
+Warning: Vehicle 'veh2506' ends teleporting on edge 'B4_B3', time=4250.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3175' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3363' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Teleporting vehicle 'veh3541'; waited too long (wrong lane), lane='carthage_s_F3_1', time=4355.00.
+Warning: Vehicle 'veh3541' ends teleporting on edge 'F4_B4', time=4355.00.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3407' found.
+Warning: Teleporting vehicle 'veh3552'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=4380.00.
+Warning: Vehicle 'veh3552' ends teleporting on edge 'F4_B4', time=4380.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Teleporting vehicle 'veh2552'; waited too long (wrong lane), lane='rome_n_B1_1', time=4441.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh2552' ends teleporting on edge 'B4_B3', time=4441.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: Teleporting vehicle 'veh3338'; waited too long (wrong lane), lane='carthage_s_F3_1', time=4446.00.
+Warning: Vehicle 'veh3338' ends teleporting on edge 'F4_B4', time=4446.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Teleporting vehicle 'veh3698'; waited too long (wrong lane), lane='bab_bhar_B1_1', time=4475.00.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh2647'; waited too long (wrong lane), lane='fh_w_F1_2', time=4484.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3071' found.
+Warning: Vehicle 'veh3698' teleports beyond arrival edge 'F3_F4', time=4503.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh2647' teleports beyond arrival edge 'F3_F4', time=4512.00.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Teleporting vehicle 'veh2585'; waited too long (wrong lane), lane='fh_w_F1_1', time=4559.00.
+Warning: Vehicle 'veh2585' ends teleporting on edge 'F4_B4', time=4559.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Teleporting vehicle 'veh3058'; waited too long (wrong lane), lane='rome_s_F1_1', time=4686.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3058' teleports beyond arrival edge 'F3_F4', time=4714.00.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh3297'; waited too long (wrong lane), lane='carthage_s_F3_1', time=4725.00.
+Warning: Vehicle 'veh3297' ends teleporting on edge 'F4_B4', time=4725.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh2593'; waited too long (wrong lane), lane='rome_n_B1_1', time=4783.00.
+Warning: Vehicle 'veh2593' ends teleporting on edge 'B4_B3', time=4783.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Teleporting vehicle 'veh2793'; waited too long (wrong lane), lane='fh_w_F1_1', time=4866.00.
+Warning: Vehicle 'veh2793' ends teleporting on edge 'B4_B3', time=4866.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3145' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3145' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Teleporting vehicle 'veh3084'; waited too long (wrong lane), lane='fh_w_F1_1', time=4989.00.
+Warning: Vehicle 'veh3084' ends teleporting on edge 'B4_B3', time=4989.00.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Teleporting vehicle 'veh3085'; waited too long (wrong lane), lane='rome_s_F1_1', time=5032.00.
+Warning: Vehicle 'veh3085' ends teleporting on edge 'F4_B4', time=5032.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3538' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3538' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: Teleporting vehicle 'veh2717'; waited too long (wrong lane), lane='rome_n_B1_1', time=5128.00.
+Warning: Vehicle 'veh2717' ends teleporting on edge 'B4_B3', time=5128.00.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3196' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3201' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3201' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'B4_B3' found.
+Warning: No route for vehicle 'veh3226' found.
+Warning: Teleporting vehicle 'veh3281'; waited too long (wrong lane), lane='fh_w_F1_2', time=5271.00.
+Warning: Vehicle 'veh3281' ends teleporting on edge 'B4_B3', time=5271.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Teleporting vehicle 'veh2806'; waited too long (wrong lane), lane='fh_w_F1_1', time=5294.00.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh2806' ends teleporting on edge 'B4_B3', time=5294.00.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: No connection between edge 'rome_n_B1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3266' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.
+Warning: Teleporting vehicle 'veh3086'; waited too long (wrong lane), lane='rome_s_F1_1', time=5337.00.
+Warning: Vehicle 'veh3086' ends teleporting on edge 'F4_B4', time=5337.00.
+Warning: No connection between edge 'rome_s_F1' and edge 'F4_B4' found.
+Warning: No route for vehicle 'veh3689' found.
+Warning: Vehicle 'veh3378' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3378' found.
+Warning: Vehicle 'veh3487' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3487' found.
+Warning: Vehicle 'veh3386' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3386' found.
+Warning: Vehicle 'veh3661' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3661' found.
+Warning: Vehicle 'veh3562' is not allowed on destination edge 'F3_F4'.
+Warning: No route for vehicle 'veh3562' found.

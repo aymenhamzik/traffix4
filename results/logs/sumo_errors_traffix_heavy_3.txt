@@ -1,0 +1,9 @@
+Warning: Not using public transport line 'L1_east' for routing persons. It has less than two usable stops.
+Warning: Person 'ped448' is jammed on edge ':F1_c3', time=1187.00.
+Warning: Person 'ped351' is jammed on edge ':F1_c3', time=1188.00.
+Warning: Person 'ped338' is jammed on edge ':F1_c3', time=1188.00.
+Warning: Person 'ped513' is jammed on edge ':F1_c3', time=1405.00.
+Warning: Person 'ped146' is jammed on edge ':F1_c3', time=1406.00.
+Warning: Person 'ped423' is jammed on edge ':F1_c3', time=1406.00.
+Warning: Vehicle 'veh2909' performs emergency braking on lane ':F3_5_1' with decel=9.00, wished=4.50, severity=1.00, time=2409.00.
+Warning: Vehicle 'veh3135' performs emergency braking on lane 'F4_F3_2' with decel=9.00, wished=4.50, severity=1.00, time=2675.00.

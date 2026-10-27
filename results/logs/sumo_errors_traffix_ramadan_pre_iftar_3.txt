@@ -1,0 +1,2 @@
+Warning: Not using public transport line 'L2_north' for routing persons. It has less than two usable stops.
+Warning: Person 'ped699' is jammed on edge ':F1_c1', time=3390.00.

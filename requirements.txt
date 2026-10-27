@@ -1,0 +1,17 @@
+eclipse-sumo
+traci
+sumolib
+libsumo
+pyyaml
+hijridate
+scikit-learn==1.9.1
+xgboost
+lightgbm
+joblib
+numpy
+pandas
+matplotlib
+scipy
+fastapi
+uvicorn
+ipykernel

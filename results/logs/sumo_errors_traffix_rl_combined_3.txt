@@ -1,0 +1,3 @@
+Warning: Not using public transport line 'L1_west' for routing persons. It has less than two usable stops.
+Warning: Collision of person 'ped930' and person 'ped819', lane=':B2_c0_0', time=3202.00.
+Warning: Person 'ped948' is jammed on edge ':B1_c2', time=3716.00.

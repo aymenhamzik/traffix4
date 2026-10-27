@@ -1,0 +1,12 @@
+Warning: At actuated tlLogic 'B4', linkIndex 10,11,12 has no controlling detector.
+Warning: Not using public transport line 'L1_east' for routing persons. It has less than two usable stops.
+Warning: Person 'ped856' is jammed on edge ':B3_w2', time=3460.00.
+Warning: Teleporting vehicle 'veh3195'; waited too long (yield), lane=':B3_7_0', time=3490.00.
+Warning: Vehicle 'veh3195' ends teleporting on edge 'B3_F3', time=3490.00.
+Warning: Person 'ped761' is jammed on edge ':B3_w2', time=3491.00.
+Warning: Teleporting vehicle 'veh2744'; waited too long (jam), lane=':B3_13_1', time=3493.00.
+Warning: Vehicle 'veh2744' ends teleporting on edge 'B3_B4', time=3493.00.
+Warning: Person 'ped865' is jammed on edge ':B3_w2', time=3494.00.
+Warning: Person 'ped828' is jammed on edge ':B3_w3', time=3495.00.
+Warning: Teleporting vehicle 'veh2864'; waited too long (yield), lane=':B3_11_0', time=3495.00.
+Warning: Vehicle 'veh2864' ends teleporting on edge 'B3_B2', time=3495.00.

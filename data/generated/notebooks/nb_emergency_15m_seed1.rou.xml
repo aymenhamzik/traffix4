@@ -1,0 +1,1061 @@
+<routes>
+  <vType id="car" vClass="passenger" sigma="0.5" color="200,200,200"/>
+  <vType id="moto" vClass="motorcycle" sigma="0.6" color="240,170,60"/>
+  <vType id="bus" vClass="bus" color="40,120,220"/>
+  <vType id="ambulance" vClass="emergency" guiShape="emergency" speedFactor="1.3" color="255,40,40"/>
+  <vType id="police" vClass="emergency" guiShape="police" speedFactor="1.3" color="40,90,255"/>
+  <vType id="fire_truck" vClass="emergency" guiShape="firebrigade" length="9" speedFactor="1.2" color="255,110,30"/>
+  <vType id="ped_normal" vClass="pedestrian" speed="1.3"/>
+  <vType id="ped_slow" vClass="pedestrian" speed="0.95" color="255,0,255"/>
+  <trip id="veh0" type="car" depart="0.2" from="paris_n_B3" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh1" type="car" depart="0.7" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh2" type="car" depart="1.7" from="F1_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped0" type="ped_normal" depart="1.9"><walk from="mv_n_B4" to="B4_tunis_marine"/></person>
+  <trip id="veh3" type="car" depart="2.6" from="tunis_marine_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh4" type="car" depart="3.1" from="paris_n_B3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped1" type="ped_normal" depart="5.4"><walk from="B1_F1" to="F1_fh_w"/></person>
+  <trip id="veh5" type="car" depart="5.6" from="tunis_marine_B4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh6" type="car" depart="5.8" from="F1_B1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh7" type="car" depart="6.9" from="mv_s_F4" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh8" type="car" depart="7.4" from="B3_F3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh9" type="car" depart="7.8" from="fh_e_F4" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh10" type="car" depart="8.2" from="F3_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped2" type="ped_normal" depart="11.0"><walk from="F3_B3" to="B1_F1"/></person>
+  <trip id="veh11" type="car" depart="12.8" from="rome_n_B1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped3" type="ped_normal" depart="14.1"><walk from="B1_B2" to="B1_F1"/></person>
+  <trip id="veh12" type="car" depart="14.3" from="fh_w_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh13" type="car" depart="14.9" from="fh_w_F1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh14" type="car" depart="16.3" from="fh_e_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh15" type="car" depart="16.5" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh16" type="car" depart="17.2" from="mv_s_F4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped4" type="ped_normal" depart="19.3"><walk from="B4_B3" to="bab_bhar_B1"/></person>
+  <trip id="veh17" type="car" depart="19.6" from="B4_B3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped5" type="ped_normal" depart="20.6"><walk from="bab_bhar_B1" to="B4_mv_n"/></person>
+  <trip id="veh18" type="car" depart="21.0" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh19" type="moto" depart="21.4" from="F3_B3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh20" type="car" depart="22.1" from="bab_bhar_B1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh21" type="car" depart="22.2" from="fh_e_F4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped6" type="ped_normal" depart="23.4"><walk from="F3_B3" to="B4_F4"/></person>
+  <trip id="veh22" type="car" depart="25.2" from="rome_s_F1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh23" type="car" depart="26.7" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped7" type="ped_normal" depart="28.6"><walk from="mv_n_B4" to="F3_carthage_s"/></person>
+  <trip id="veh24" type="car" depart="28.8" from="F1_B1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh25" type="car" depart="29.2" from="bab_bhar_B1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh26" type="car" depart="31.6" from="B4_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh27" type="moto" depart="33.4" from="carthage_s_F3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped8" type="ped_normal" depart="33.5"><walk from="F1_rome_s" to="B3_B4"/></person>
+  <trip id="veh28" type="car" depart="33.7" from="fh_e_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <vehicle id="bus_L2_north_0" type="bus" depart="34.4" line="L2_north"><param key="scheduled" value="5.2"/><route edges="mv_s_F4 F4_B4 B4_mv_n"/><stop busStop="stop_mv_s_F4" duration="20"/><stop busStop="stop_F4_B4" duration="20"/></vehicle>
+  <trip id="veh29" type="car" depart="35.8" from="F4_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh30" type="car" depart="36.9" from="F4_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped9" type="ped_normal" depart="37.2"><walk from="F4_fh_e" to="carthage_s_F3"/></person>
+  <trip id="veh31" type="car" depart="37.9" from="B2_B1" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh32" type="moto" depart="39.1" from="mv_s_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh33" type="car" depart="39.5" from="carthage_s_F3" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped10" type="ped_normal" depart="40.9"><walk from="F3_B3" to="B1_bab_bhar"/></person>
+  <person id="ped11" type="ped_slow" depart="42.3"><walk from="B3_B4" to="F4_F3"/></person>
+  <trip id="veh34" type="car" depart="42.6" from="B4_F4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh35" type="car" depart="43.8" from="F4_B4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped12" type="ped_normal" depart="44.7"><walk from="B2_B1" to="B4_F4"/></person>
+  <trip id="veh36" type="car" depart="49.3" from="B3_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped13" type="ped_normal" depart="50.1"><walk from="B4_tunis_marine" to="B1_B2"/></person>
+  <trip id="veh37" type="car" depart="50.2" from="tunis_marine_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh38" type="car" depart="50.9" from="paris_n_B3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped14" type="ped_normal" depart="51.8"><walk from="F1_B1" to="B3_B4"/></person>
+  <trip id="veh39" type="car" depart="51.9" from="mv_n_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh40" type="car" depart="52.0" from="F4_F3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh41" type="car" depart="52.4" from="carthage_s_F3" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh42" type="moto" depart="53.3" from="mv_n_B4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh43" type="car" depart="54.1" from="fh_w_F1" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh44" type="car" depart="56.5" from="rome_s_F1" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh45" type="moto" depart="57.5" from="F3_F1" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh46" type="car" depart="58.7" from="paris_n_B3" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh47" type="car" depart="60.1" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh48" type="car" depart="60.2" from="bab_bhar_B1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh49" type="car" depart="65.1" from="tunis_marine_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh50" type="car" depart="65.5" from="fh_e_F4" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh51" type="car" depart="65.6" from="mv_n_B4" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped15" type="ped_normal" depart="66.6"><walk from="tunis_marine_B4" to="F1_rome_s"/></person>
+  <trip id="veh52" type="moto" depart="67.1" from="mv_n_B4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh53" type="moto" depart="69.9" from="B1_F1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh54" type="car" depart="70.0" from="carthage_s_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh55" type="car" depart="71.5" from="fh_e_F4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh56" type="car" depart="71.6" from="bab_bhar_B1" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped16" type="ped_normal" depart="72.3"><walk from="B1_F1" to="B4_mv_n"/></person>
+  <trip id="veh57" type="car" depart="73.1" from="carthage_s_F3" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh58" type="car" depart="73.1" from="rome_n_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped17" type="ped_normal" depart="73.7"><walk from="B4_B3" to="bab_bhar_B1"/></person>
+  <trip id="veh59" type="car" depart="74.0" from="mv_n_B4" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh60" type="car" depart="74.8" from="rome_s_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh61" type="car" depart="75.1" from="B1_F1" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped18" type="ped_normal" depart="77.1"><walk from="F3_F1" to="bab_bhar_B1"/></person>
+  <trip id="veh62" type="car" depart="77.6" from="F1_F3" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh63" type="moto" depart="77.9" from="B4_F4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh64" type="car" depart="78.4" from="F3_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh65" type="car" depart="79.2" from="mv_s_F4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh66" type="car" depart="81.2" from="F3_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh67" type="car" depart="82.4" from="paris_n_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh68" type="moto" depart="83.4" from="mv_s_F4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh69" type="car" depart="83.8" from="mv_s_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh70" type="car" depart="84.1" from="B3_F3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh71" type="car" depart="85.3" from="F3_F1" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh72" type="car" depart="85.5" from="mv_s_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh73" type="car" depart="87.9" from="bab_bhar_B1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh74" type="car" depart="88.2" from="carthage_s_F3" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh75" type="car" depart="88.9" from="rome_n_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh76" type="car" depart="91.0" from="B2_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh77" type="car" depart="91.1" from="fh_e_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh78" type="car" depart="92.0" from="paris_n_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped19" type="ped_normal" depart="92.0"><walk from="F1_B1" to="tunis_marine_B4"/></person>
+  <trip id="veh79" type="car" depart="93.8" from="B2_B3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh80" type="car" depart="94.1" from="tunis_marine_B4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="ambulance0" type="ambulance" depart="94.3" from="mv_s_F4" to="F1_fh_w" departLane="best"/>
+  <trip id="veh81" type="car" depart="95.2" from="carthage_s_F3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh82" type="car" depart="96.3" from="F3_B3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh83" type="car" depart="100.0" from="paris_n_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh84" type="car" depart="100.4" from="tunis_marine_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh85" type="car" depart="101.0" from="F3_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh86" type="car" depart="101.6" from="fh_w_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh87" type="car" depart="102.4" from="rome_s_F1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped20" type="ped_slow" depart="102.8"><walk from="mv_n_B4" to="B3_paris_n"/></person>
+  <person id="ped21" type="ped_normal" depart="104.8"><walk from="B1_bab_bhar" to="F1_F3"/></person>
+  <person id="ped22" type="ped_normal" depart="105.3"><walk from="F4_F3" to="bab_bhar_B1"/></person>
+  <trip id="veh88" type="car" depart="105.3" from="F4_B4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh89" type="car" depart="105.7" from="B3_B2" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <vehicle id="bus_L1_west_0" type="bus" depart="107.2" line="L1_west"><param key="scheduled" value="21.3"/><route edges="tunis_marine_B4 B4_B3 B3_B2 B2_B1 B1_bab_bhar"/><stop busStop="stop_tunis_marine_B4" duration="20"/><stop busStop="stop_B4_B3" duration="20"/><stop busStop="stop_B3_B2" duration="20"/><stop busStop="stop_B2_B1" duration="20"/></vehicle>
+  <trip id="veh90" type="car" depart="107.8" from="carthage_s_F3" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped23" type="ped_normal" depart="108.0"><walk from="rome_s_F1" to="B4_tunis_marine"/></person>
+  <person id="ped24" type="ped_normal" depart="110.4"><walk from="B1_bab_bhar" to="B3_B4"/></person>
+  <trip id="veh91" type="car" depart="110.5" from="mv_n_B4" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh92" type="car" depart="112.3" from="rome_n_B1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped25" type="ped_normal" depart="112.6"><walk from="B4_B3" to="F3_B3"/></person>
+  <trip id="veh93" type="moto" depart="113.7" from="tunis_marine_B4" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh94" type="car" depart="115.2" from="B1_B2" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh95" type="car" depart="115.4" from="mv_s_F4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped26" type="ped_normal" depart="116.0"><walk from="fh_w_F1" to="mv_n_B4"/></person>
+  <trip id="veh96" type="car" depart="117.0" from="mv_n_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh97" type="car" depart="117.0" from="bab_bhar_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped27" type="ped_normal" depart="117.7"><walk from="B2_B1" to="mv_n_B4"/></person>
+  <trip id="veh98" type="car" depart="117.9" from="B2_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh99" type="car" depart="118.0" from="B1_F1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh100" type="car" depart="119.0" from="paris_n_B3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh101" type="car" depart="119.6" from="carthage_s_F3" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped28" type="ped_normal" depart="120.0"><walk from="B1_B2" to="fh_w_F1"/></person>
+  <trip id="veh102" type="car" depart="120.8" from="B3_B4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh103" type="car" depart="122.5" from="B3_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh104" type="car" depart="122.5" from="rome_s_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh105" type="car" depart="123.2" from="fh_w_F1" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh106" type="car" depart="124.1" from="carthage_s_F3" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh107" type="car" depart="124.6" from="paris_n_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh108" type="car" depart="125.4" from="paris_n_B3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped29" type="ped_normal" depart="126.2"><walk from="B4_tunis_marine" to="F3_F1"/></person>
+  <trip id="veh109" type="car" depart="127.0" from="bab_bhar_B1" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh110" type="car" depart="128.2" from="B1_B2" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped30" type="ped_slow" depart="130.1"><walk from="B3_B2" to="rome_n_B1"/></person>
+  <trip id="veh111" type="car" depart="130.1" from="fh_w_F1" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh112" type="car" depart="130.1" from="carthage_s_F3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh113" type="car" depart="130.8" from="mv_s_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh114" type="car" depart="131.2" from="F1_B1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped31" type="ped_normal" depart="131.4"><walk from="tunis_marine_B4" to="fh_w_F1"/></person>
+  <person id="ped32" type="ped_normal" depart="131.4"><walk from="rome_n_B1" to="B4_mv_n"/></person>
+  <trip id="veh115" type="car" depart="134.2" from="fh_w_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh116" type="car" depart="134.5" from="B2_B1" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh117" type="moto" depart="135.0" from="mv_s_F4" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh118" type="car" depart="138.2" from="B1_B2" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh119" type="car" depart="138.9" from="mv_s_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh120" type="car" depart="139.6" from="paris_n_B3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh121" type="car" depart="140.1" from="F4_B4" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh122" type="car" depart="140.2" from="paris_n_B3" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh123" type="car" depart="142.0" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh124" type="car" depart="142.1" from="bab_bhar_B1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh125" type="car" depart="143.0" from="tunis_marine_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh126" type="car" depart="144.2" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh127" type="car" depart="144.3" from="bab_bhar_B1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh128" type="car" depart="145.4" from="paris_n_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh129" type="car" depart="146.0" from="F4_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped33" type="ped_slow" depart="146.0"><walk from="B2_B1" to="F1_rome_s"/></person>
+  <trip id="veh130" type="car" depart="150.5" from="carthage_s_F3" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped34" type="ped_slow" depart="150.7"><walk from="B1_B2" to="F4_fh_e"/></person>
+  <trip id="veh131" type="car" depart="151.9" from="rome_n_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped35" type="ped_normal" depart="153.1"><walk from="carthage_s_F3" to="paris_n_B3"/></person>
+  <trip id="veh132" type="car" depart="153.3" from="tunis_marine_B4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh133" type="car" depart="153.7" from="rome_s_F1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh134" type="car" depart="156.2" from="rome_s_F1" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped36" type="ped_normal" depart="156.4"><walk from="rome_n_B1" to="F4_F3"/></person>
+  <trip id="veh135" type="car" depart="157.3" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped37" type="ped_normal" depart="157.5"><walk from="F4_B4" to="fh_w_F1"/></person>
+  <trip id="veh136" type="car" depart="157.8" from="fh_w_F1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh137" type="moto" depart="158.2" from="rome_s_F1" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped38" type="ped_normal" depart="158.3"><walk from="paris_n_B3" to="rome_s_F1"/></person>
+  <trip id="veh138" type="car" depart="158.7" from="mv_n_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh139" type="car" depart="159.0" from="paris_n_B3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh140" type="car" depart="159.1" from="B3_F3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped39" type="ped_normal" depart="160.4"><walk from="mv_s_F4" to="B1_bab_bhar"/></person>
+  <trip id="veh141" type="moto" depart="164.7" from="F4_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped40" type="ped_normal" depart="165.0"><walk from="B3_F3" to="F1_F3"/></person>
+  <trip id="veh142" type="car" depart="165.1" from="F1_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped41" type="ped_normal" depart="165.3"><walk from="F1_fh_w" to="F4_fh_e"/></person>
+  <trip id="veh143" type="car" depart="166.3" from="paris_n_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh144" type="car" depart="167.4" from="fh_e_F4" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh145" type="car" depart="168.5" from="tunis_marine_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh146" type="car" depart="169.6" from="B2_B3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh147" type="car" depart="170.8" from="tunis_marine_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh148" type="car" depart="171.2" from="B3_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped42" type="ped_normal" depart="172.2"><walk from="B4_B3" to="fh_w_F1"/></person>
+  <trip id="veh149" type="moto" depart="173.2" from="F4_B4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh150" type="car" depart="173.5" from="mv_s_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped43" type="ped_normal" depart="173.9"><walk from="F1_F3" to="B1_B2"/></person>
+  <trip id="veh151" type="car" depart="174.2" from="mv_s_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh152" type="car" depart="174.9" from="F1_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh153" type="car" depart="176.8" from="F3_F4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped44" type="ped_normal" depart="177.2"><walk from="B3_F3" to="B3_B2"/></person>
+  <trip id="veh154" type="car" depart="177.7" from="fh_w_F1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh155" type="car" depart="178.8" from="rome_n_B1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh156" type="car" depart="179.1" from="F4_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh157" type="car" depart="179.1" from="fh_e_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped45" type="ped_normal" depart="179.5"><walk from="rome_n_B1" to="B2_B3"/></person>
+  <trip id="veh158" type="car" depart="180.3" from="F1_B1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh159" type="car" depart="181.5" from="B4_B3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh160" type="car" depart="181.6" from="tunis_marine_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped46" type="ped_normal" depart="182.2"><walk from="F4_fh_e" to="F4_mv_s"/></person>
+  <trip id="veh161" type="moto" depart="182.3" from="mv_s_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh162" type="moto" depart="182.7" from="F1_B1" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh163" type="car" depart="183.2" from="fh_w_F1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh164" type="car" depart="183.5" from="F1_B1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh165" type="moto" depart="183.7" from="fh_w_F1" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped47" type="ped_normal" depart="186.9"><walk from="F4_mv_s" to="F1_F3"/></person>
+  <person id="ped48" type="ped_normal" depart="187.3"><walk from="B3_B2" to="B2_B1"/></person>
+  <trip id="veh166" type="car" depart="187.5" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh167" type="car" depart="188.0" from="bab_bhar_B1" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh168" type="moto" depart="188.6" from="carthage_s_F3" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh169" type="car" depart="189.9" from="fh_w_F1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped49" type="ped_normal" depart="190.2"><walk from="fh_w_F1" to="F4_F3"/></person>
+  <person id="ped50" type="ped_normal" depart="191.6"><walk from="mv_s_F4" to="F1_fh_w"/></person>
+  <trip id="veh170" type="car" depart="192.3" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped51" type="ped_normal" depart="193.1"><walk from="F1_fh_w" to="F4_F3"/></person>
+  <trip id="veh171" type="car" depart="194.2" from="B1_F1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <vehicle id="bus_L2_south_0" type="bus" depart="196.5" line="L2_south"><param key="scheduled" value="177.8"/><route edges="mv_n_B4 B4_F4 F4_mv_s"/><stop busStop="stop_mv_n_B4" duration="20"/><stop busStop="stop_B4_F4" duration="20"/></vehicle>
+  <trip id="veh172" type="car" depart="196.9" from="rome_n_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh173" type="car" depart="200.1" from="tunis_marine_B4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh174" type="car" depart="200.3" from="rome_s_F1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh175" type="car" depart="201.3" from="paris_n_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh176" type="car" depart="201.7" from="fh_w_F1" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh177" type="car" depart="202.0" from="carthage_s_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh178" type="moto" depart="202.0" from="B1_B2" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh179" type="car" depart="202.6" from="rome_n_B1" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped52" type="ped_normal" depart="202.8"><walk from="B2_B3" to="rome_s_F1"/></person>
+  <trip id="veh180" type="car" depart="203.1" from="F4_F3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped53" type="ped_slow" depart="203.4"><walk from="B3_B4" to="fh_e_F4"/></person>
+  <trip id="veh181" type="moto" depart="204.4" from="paris_n_B3" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh182" type="car" depart="206.2" from="B4_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh183" type="car" depart="206.3" from="B3_B4" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh184" type="car" depart="206.9" from="F3_B3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped54" type="ped_normal" depart="209.5"><walk from="B2_B3" to="bab_bhar_B1"/></person>
+  <person id="ped55" type="ped_normal" depart="209.7"><walk from="B3_B4" to="mv_n_B4"/></person>
+  <trip id="veh185" type="car" depart="210.3" from="bab_bhar_B1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh186" type="car" depart="210.3" from="B3_B4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh187" type="car" depart="211.2" from="rome_s_F1" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh188" type="car" depart="211.3" from="paris_n_B3" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh189" type="car" depart="211.9" from="fh_w_F1" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped56" type="ped_normal" depart="212.5"><walk from="B1_F1" to="tunis_marine_B4"/></person>
+  <trip id="veh190" type="car" depart="213.3" from="fh_e_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh191" type="car" depart="214.2" from="bab_bhar_B1" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped57" type="ped_normal" depart="215.5"><walk from="B2_B3" to="rome_n_B1"/></person>
+  <trip id="veh192" type="car" depart="215.6" from="bab_bhar_B1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh193" type="car" depart="217.1" from="paris_n_B3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped58" type="ped_slow" depart="218.6"><walk from="F1_B1" to="F4_mv_s"/></person>
+  <trip id="veh194" type="car" depart="219.2" from="F3_F1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh195" type="car" depart="220.2" from="F4_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh196" type="car" depart="220.3" from="fh_e_F4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped59" type="ped_normal" depart="220.6"><walk from="F4_B4" to="B1_rome_n"/></person>
+  <trip id="veh197" type="car" depart="224.8" from="fh_w_F1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh198" type="moto" depart="226.5" from="rome_n_B1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh199" type="car" depart="227.4" from="fh_e_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh200" type="car" depart="228.3" from="bab_bhar_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh201" type="car" depart="228.6" from="mv_n_B4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped60" type="ped_slow" depart="229.0"><walk from="B2_B1" to="F1_fh_w"/></person>
+  <person id="ped61" type="ped_normal" depart="233.3"><walk from="rome_n_B1" to="B1_F1"/></person>
+  <trip id="veh202" type="car" depart="233.5" from="tunis_marine_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh203" type="moto" depart="234.9" from="carthage_s_F3" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh204" type="car" depart="235.4" from="bab_bhar_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh205" type="car" depart="236.0" from="paris_n_B3" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped62" type="ped_normal" depart="236.2"><walk from="fh_e_F4" to="F3_F4"/></person>
+  <person id="ped63" type="ped_normal" depart="240.7"><walk from="B1_B2" to="B4_tunis_marine"/></person>
+  <trip id="veh206" type="car" depart="242.2" from="mv_n_B4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped64" type="ped_normal" depart="242.2"><walk from="carthage_s_F3" to="F4_fh_e"/></person>
+  <trip id="veh207" type="car" depart="242.4" from="bab_bhar_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="ambulance1" type="ambulance" depart="246.0" from="rome_s_F1" to="B3_paris_n" departLane="best"/>
+  <trip id="veh208" type="car" depart="247.1" from="rome_s_F1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh209" type="car" depart="247.3" from="B2_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh210" type="car" depart="248.1" from="fh_e_F4" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh211" type="car" depart="248.2" from="fh_w_F1" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh212" type="car" depart="248.3" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh213" type="car" depart="248.8" from="paris_n_B3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh214" type="car" depart="250.2" from="bab_bhar_B1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh215" type="car" depart="250.4" from="B4_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh216" type="car" depart="250.6" from="tunis_marine_B4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh217" type="car" depart="250.8" from="F4_F3" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh218" type="car" depart="251.7" from="B1_F1" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh219" type="car" depart="252.3" from="B4_F4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh220" type="car" depart="252.7" from="B2_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped65" type="ped_normal" depart="252.8"><walk from="B4_B3" to="B1_F1"/></person>
+  <trip id="veh221" type="car" depart="253.3" from="F4_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped66" type="ped_normal" depart="253.5"><walk from="rome_s_F1" to="B3_F3"/></person>
+  <person id="ped67" type="ped_slow" depart="253.8"><walk from="B1_B2" to="F1_rome_s"/></person>
+  <trip id="veh222" type="car" depart="254.1" from="tunis_marine_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh223" type="car" depart="254.3" from="fh_w_F1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="police0" type="police" depart="254.9" from="carthage_s_F3" to="B3_paris_n" departLane="best"/>
+  <trip id="veh224" type="car" depart="255.0" from="tunis_marine_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh225" type="car" depart="256.8" from="fh_w_F1" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh226" type="car" depart="257.2" from="rome_s_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped68" type="ped_slow" depart="257.8"><walk from="rome_s_F1" to="B3_B4"/></person>
+  <trip id="veh227" type="car" depart="258.5" from="bab_bhar_B1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped69" type="ped_normal" depart="258.5"><walk from="fh_e_F4" to="B4_B3"/></person>
+  <trip id="veh228" type="car" depart="261.7" from="rome_n_B1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh229" type="car" depart="261.8" from="fh_e_F4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped70" type="ped_normal" depart="264.8"><walk from="B3_B4" to="rome_n_B1"/></person>
+  <trip id="veh230" type="car" depart="265.0" from="B2_B3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped71" type="ped_normal" depart="265.0"><walk from="B4_mv_n" to="F3_F1"/></person>
+  <trip id="veh231" type="car" depart="265.7" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped72" type="ped_slow" depart="266.1"><walk from="B3_B4" to="fh_e_F4"/></person>
+  <trip id="veh232" type="car" depart="266.7" from="rome_n_B1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh233" type="car" depart="267.5" from="B1_F1" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <vehicle id="bus_L2_north_1" type="bus" depart="269.4" line="L2_north"><param key="scheduled" value="245.2"/><route edges="mv_s_F4 F4_B4 B4_mv_n"/><stop busStop="stop_mv_s_F4" duration="20"/><stop busStop="stop_F4_B4" duration="20"/></vehicle>
+  <trip id="veh234" type="car" depart="269.6" from="paris_n_B3" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped73" type="ped_normal" depart="269.9"><walk from="B2_B3" to="bab_bhar_B1"/></person>
+  <trip id="veh235" type="car" depart="270.4" from="B2_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh236" type="moto" depart="273.2" from="mv_s_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped74" type="ped_slow" depart="274.6"><walk from="B4_B3" to="paris_n_B3"/></person>
+  <person id="ped75" type="ped_normal" depart="275.3"><walk from="tunis_marine_B4" to="mv_s_F4"/></person>
+  <trip id="veh237" type="car" depart="275.6" from="F3_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh238" type="moto" depart="276.2" from="F4_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh239" type="car" depart="279.6" from="carthage_s_F3" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped76" type="ped_normal" depart="281.4"><walk from="F4_B4" to="B4_tunis_marine"/></person>
+  <trip id="veh240" type="car" depart="282.8" from="rome_s_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh241" type="car" depart="282.8" from="rome_n_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh242" type="car" depart="284.3" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh243" type="car" depart="285.2" from="carthage_s_F3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh244" type="car" depart="286.3" from="mv_s_F4" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh245" type="car" depart="286.8" from="rome_s_F1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <vehicle id="bus_L1_east_0" type="bus" depart="288.9" line="L1_east"><param key="scheduled" value="164.4"/><route edges="bab_bhar_B1 B1_B2 B2_B3 B3_B4 B4_tunis_marine"/><stop busStop="stop_bab_bhar_B1" duration="20"/><stop busStop="stop_B1_B2" duration="20"/><stop busStop="stop_B2_B3" duration="20"/><stop busStop="stop_B3_B4" duration="20"/></vehicle>
+  <trip id="veh246" type="car" depart="290.4" from="B4_B3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh247" type="moto" depart="291.8" from="carthage_s_F3" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh248" type="car" depart="292.5" from="F4_B4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh249" type="car" depart="292.6" from="carthage_s_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh250" type="car" depart="292.9" from="F1_B1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh251" type="car" depart="293.2" from="paris_n_B3" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh252" type="car" depart="293.3" from="bab_bhar_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh253" type="car" depart="295.4" from="fh_w_F1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh254" type="car" depart="295.5" from="mv_s_F4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh255" type="car" depart="295.5" from="B3_B2" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh256" type="car" depart="296.4" from="B3_B4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped77" type="ped_normal" depart="296.9"><walk from="rome_n_B1" to="F3_F1"/></person>
+  <person id="ped78" type="ped_normal" depart="298.6"><walk from="rome_s_F1" to="B4_tunis_marine"/></person>
+  <trip id="veh257" type="car" depart="299.7" from="F4_F3" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped79" type="ped_normal" depart="300.5"><walk from="fh_e_F4" to="paris_n_B3"/></person>
+  <trip id="veh258" type="car" depart="300.9" from="mv_s_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh259" type="car" depart="302.9" from="B1_F1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh260" type="car" depart="303.5" from="carthage_s_F3" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh261" type="car" depart="305.3" from="bab_bhar_B1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh262" type="car" depart="305.3" from="rome_n_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped80" type="ped_normal" depart="305.5"><walk from="B4_tunis_marine" to="bab_bhar_B1"/></person>
+  <person id="ped81" type="ped_slow" depart="305.5"><walk from="B1_rome_n" to="F1_F3"/></person>
+  <trip id="veh263" type="car" depart="305.6" from="F1_F3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh264" type="car" depart="305.7" from="rome_s_F1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh265" type="car" depart="307.1" from="fh_w_F1" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh266" type="moto" depart="307.3" from="rome_n_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped82" type="ped_normal" depart="307.7"><walk from="F4_F3" to="B3_F3"/></person>
+  <person id="ped83" type="ped_normal" depart="308.8"><walk from="F4_F3" to="B1_rome_n"/></person>
+  <person id="ped84" type="ped_normal" depart="308.8"><walk from="B3_paris_n" to="B3_B2"/></person>
+  <trip id="veh267" type="car" depart="309.9" from="fh_e_F4" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh268" type="moto" depart="311.3" from="F3_B3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh269" type="car" depart="312.6" from="B1_B2" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped85" type="ped_normal" depart="313.5"><walk from="paris_n_B3" to="B4_mv_n"/></person>
+  <person id="ped86" type="ped_normal" depart="314.8"><walk from="F1_B1" to="F4_fh_e"/></person>
+  <trip id="veh270" type="car" depart="315.6" from="carthage_s_F3" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh271" type="car" depart="315.6" from="B3_B2" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh272" type="car" depart="315.8" from="paris_n_B3" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh273" type="car" depart="315.8" from="B3_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh274" type="car" depart="316.2" from="rome_n_B1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh275" type="car" depart="317.2" from="fh_w_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh276" type="car" depart="317.8" from="paris_n_B3" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh277" type="car" depart="318.9" from="fh_e_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh278" type="car" depart="319.7" from="mv_s_F4" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped87" type="ped_normal" depart="320.8"><walk from="mv_n_B4" to="F4_B4"/></person>
+  <person id="ped88" type="ped_normal" depart="321.4"><walk from="B3_B2" to="B3_B4"/></person>
+  <trip id="veh279" type="car" depart="322.1" from="bab_bhar_B1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped89" type="ped_normal" depart="322.2"><walk from="B2_B1" to="B3_B4"/></person>
+  <trip id="veh280" type="car" depart="324.3" from="tunis_marine_B4" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh281" type="car" depart="324.9" from="B1_B2" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh282" type="car" depart="325.2" from="tunis_marine_B4" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh283" type="moto" depart="325.6" from="rome_n_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh284" type="car" depart="327.3" from="mv_s_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped90" type="ped_normal" depart="327.4"><walk from="carthage_s_F3" to="fh_w_F1"/></person>
+  <person id="ped91" type="ped_normal" depart="327.6"><walk from="paris_n_B3" to="B2_B1"/></person>
+  <trip id="veh285" type="car" depart="327.7" from="tunis_marine_B4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh286" type="moto" depart="328.7" from="mv_n_B4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped92" type="ped_normal" depart="329.3"><walk from="rome_s_F1" to="paris_n_B3"/></person>
+  <trip id="veh287" type="car" depart="331.7" from="tunis_marine_B4" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh288" type="car" depart="331.9" from="F4_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped93" type="ped_normal" depart="332.3"><walk from="B2_B1" to="F1_B1"/></person>
+  <person id="ped94" type="ped_normal" depart="335.0"><walk from="B2_B3" to="B4_F4"/></person>
+  <trip id="veh289" type="car" depart="335.1" from="fh_w_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped95" type="ped_normal" depart="335.7"><walk from="B4_B3" to="paris_n_B3"/></person>
+  <person id="ped96" type="ped_normal" depart="336.8"><walk from="B3_B4" to="B2_B1"/></person>
+  <person id="ped97" type="ped_normal" depart="337.8"><walk from="F3_B3" to="B4_B3"/></person>
+  <trip id="veh290" type="car" depart="337.8" from="rome_n_B1" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh291" type="car" depart="340.2" from="F4_B4" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh292" type="car" depart="341.3" from="bab_bhar_B1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh293" type="moto" depart="341.7" from="F1_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped98" type="ped_normal" depart="341.8"><walk from="B1_B2" to="B4_tunis_marine"/></person>
+  <trip id="veh294" type="car" depart="341.8" from="B3_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped99" type="ped_normal" depart="343.4"><walk from="F3_carthage_s" to="F4_fh_e"/></person>
+  <trip id="veh295" type="car" depart="344.0" from="B2_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="fire0" type="fire_truck" depart="344.9" from="fh_e_F4" to="B1_bab_bhar" departLane="best"/>
+  <trip id="veh296" type="car" depart="346.1" from="bab_bhar_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh297" type="car" depart="346.9" from="mv_s_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh298" type="car" depart="347.7" from="fh_w_F1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped100" type="ped_normal" depart="348.4"><walk from="B3_F3" to="F3_carthage_s"/></person>
+  <trip id="veh299" type="car" depart="348.8" from="F1_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh300" type="car" depart="349.7" from="fh_w_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh301" type="car" depart="351.2" from="F3_F1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh302" type="car" depart="351.4" from="mv_n_B4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh303" type="car" depart="352.3" from="bab_bhar_B1" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh304" type="car" depart="353.9" from="rome_n_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh305" type="car" depart="354.4" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh306" type="moto" depart="357.1" from="carthage_s_F3" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh307" type="car" depart="357.5" from="mv_s_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh308" type="car" depart="358.4" from="fh_e_F4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh309" type="car" depart="360.3" from="fh_e_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh310" type="car" depart="361.0" from="B3_B4" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh311" type="car" depart="361.3" from="rome_n_B1" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh312" type="car" depart="362.0" from="paris_n_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh313" type="car" depart="363.5" from="fh_e_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh314" type="moto" depart="364.2" from="mv_n_B4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh315" type="car" depart="364.5" from="F3_F4" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh316" type="car" depart="365.3" from="fh_e_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh317" type="car" depart="366.2" from="carthage_s_F3" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh318" type="moto" depart="366.6" from="F3_B3" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped101" type="ped_normal" depart="366.9"><walk from="mv_s_F4" to="F1_fh_w"/></person>
+  <trip id="veh319" type="car" depart="367.6" from="F4_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh320" type="car" depart="367.8" from="F4_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh321" type="car" depart="369.3" from="mv_s_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh322" type="car" depart="369.4" from="carthage_s_F3" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped102" type="ped_normal" depart="370.9"><walk from="F3_carthage_s" to="rome_n_B1"/></person>
+  <trip id="veh323" type="car" depart="371.3" from="tunis_marine_B4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped103" type="ped_normal" depart="372.0"><walk from="B4_mv_n" to="B3_paris_n"/></person>
+  <person id="ped104" type="ped_normal" depart="372.1"><walk from="F1_rome_s" to="B4_B3"/></person>
+  <trip id="veh324" type="car" depart="372.2" from="mv_s_F4" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh325" type="car" depart="372.4" from="F3_F1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh326" type="car" depart="372.7" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh327" type="car" depart="372.8" from="bab_bhar_B1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh328" type="car" depart="373.4" from="F1_F3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh329" type="car" depart="373.8" from="bab_bhar_B1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh330" type="car" depart="374.1" from="bab_bhar_B1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh331" type="car" depart="376.0" from="mv_s_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped105" type="ped_slow" depart="376.7"><walk from="B4_B3" to="B2_B3"/></person>
+  <trip id="veh332" type="car" depart="377.2" from="bab_bhar_B1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped106" type="ped_normal" depart="377.3"><walk from="rome_s_F1" to="F1_F3"/></person>
+  <person id="ped107" type="ped_normal" depart="377.7"><walk from="F3_B3" to="B3_B2"/></person>
+  <trip id="veh333" type="car" depart="379.0" from="F4_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh334" type="car" depart="379.4" from="bab_bhar_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh335" type="car" depart="379.8" from="B1_B2" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh336" type="moto" depart="380.0" from="carthage_s_F3" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh337" type="car" depart="380.0" from="B1_F1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh338" type="car" depart="380.3" from="F4_B4" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh339" type="car" depart="381.2" from="F1_B1" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh340" type="car" depart="383.5" from="bab_bhar_B1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh341" type="car" depart="384.1" from="carthage_s_F3" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh342" type="car" depart="385.6" from="F3_F1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh343" type="car" depart="385.6" from="tunis_marine_B4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh344" type="car" depart="386.2" from="tunis_marine_B4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped108" type="ped_slow" depart="386.2"><walk from="B4_B3" to="carthage_s_F3"/></person>
+  <trip id="ambulance2" type="ambulance" depart="386.8" from="fh_e_F4" to="F1_rome_s" departLane="best"/>
+  <trip id="veh345" type="car" depart="387.5" from="B3_F3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh346" type="car" depart="387.8" from="B1_F1" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh347" type="car" depart="387.9" from="mv_s_F4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh348" type="car" depart="389.9" from="bab_bhar_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh349" type="car" depart="391.0" from="mv_n_B4" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh350" type="car" depart="391.4" from="rome_n_B1" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh351" type="car" depart="393.8" from="mv_s_F4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh352" type="car" depart="394.7" from="B4_B3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh353" type="car" depart="395.0" from="F3_F4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh354" type="car" depart="395.2" from="F3_F1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped109" type="ped_normal" depart="396.2"><walk from="fh_e_F4" to="rome_n_B1"/></person>
+  <trip id="veh355" type="car" depart="396.3" from="bab_bhar_B1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh356" type="car" depart="396.7" from="mv_n_B4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped110" type="ped_slow" depart="397.3"><walk from="F1_fh_w" to="F4_F3"/></person>
+  <trip id="veh357" type="car" depart="398.3" from="carthage_s_F3" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh358" type="car" depart="398.5" from="carthage_s_F3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh359" type="car" depart="398.9" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh360" type="car" depart="399.2" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped111" type="ped_normal" depart="399.8"><walk from="B3_B2" to="bab_bhar_B1"/></person>
+  <person id="ped112" type="ped_normal" depart="399.9"><walk from="fh_w_F1" to="F3_F1"/></person>
+  <trip id="veh361" type="car" depart="400.0" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh362" type="car" depart="400.1" from="fh_e_F4" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh363" type="car" depart="400.5" from="rome_n_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh364" type="car" depart="400.6" from="fh_w_F1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh365" type="car" depart="401.3" from="rome_s_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped113" type="ped_normal" depart="401.5"><walk from="F3_F1" to="B4_mv_n"/></person>
+  <trip id="veh366" type="moto" depart="402.6" from="mv_s_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh367" type="car" depart="403.2" from="paris_n_B3" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh368" type="car" depart="404.0" from="carthage_s_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped114" type="ped_normal" depart="404.6"><walk from="mv_n_B4" to="F3_carthage_s"/></person>
+  <trip id="veh369" type="car" depart="404.8" from="B4_F4" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh370" type="moto" depart="404.9" from="fh_e_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped115" type="ped_normal" depart="404.9"><walk from="F1_rome_s" to="F3_B3"/></person>
+  <person id="ped116" type="ped_normal" depart="405.7"><walk from="B1_B2" to="F1_rome_s"/></person>
+  <person id="ped117" type="ped_normal" depart="406.0"><walk from="B3_paris_n" to="tunis_marine_B4"/></person>
+  <trip id="veh371" type="car" depart="406.1" from="fh_w_F1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh372" type="car" depart="406.2" from="B3_B2" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh373" type="car" depart="406.3" from="carthage_s_F3" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped118" type="ped_normal" depart="407.0"><walk from="B1_rome_n" to="rome_s_F1"/></person>
+  <trip id="veh374" type="car" depart="408.6" from="F1_F3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh375" type="car" depart="409.3" from="carthage_s_F3" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh376" type="car" depart="409.3" from="paris_n_B3" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh377" type="car" depart="409.8" from="mv_s_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped119" type="ped_normal" depart="410.9"><walk from="B3_B4" to="B1_B2"/></person>
+  <trip id="veh378" type="car" depart="411.7" from="B3_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh379" type="car" depart="411.9" from="mv_s_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh380" type="car" depart="412.0" from="paris_n_B3" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped120" type="ped_normal" depart="413.5"><walk from="B2_B1" to="paris_n_B3"/></person>
+  <trip id="veh381" type="car" depart="413.8" from="B2_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh382" type="car" depart="414.0" from="paris_n_B3" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh383" type="car" depart="417.1" from="F4_B4" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh384" type="car" depart="417.1" from="carthage_s_F3" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh385" type="car" depart="419.3" from="bab_bhar_B1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped121" type="ped_normal" depart="419.6"><walk from="F1_fh_w" to="B1_bab_bhar"/></person>
+  <trip id="veh386" type="car" depart="419.8" from="fh_e_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh387" type="car" depart="421.0" from="carthage_s_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped122" type="ped_normal" depart="421.7"><walk from="F1_B1" to="tunis_marine_B4"/></person>
+  <trip id="veh388" type="car" depart="421.8" from="carthage_s_F3" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh389" type="car" depart="422.1" from="rome_s_F1" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh390" type="car" depart="423.9" from="rome_s_F1" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh391" type="car" depart="424.3" from="paris_n_B3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh392" type="car" depart="425.3" from="B4_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh393" type="car" depart="426.1" from="rome_n_B1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <vehicle id="bus_L1_east_1" type="bus" depart="426.1" line="L1_east"><param key="scheduled" value="404.4"/><route edges="bab_bhar_B1 B1_B2 B2_B3 B3_B4 B4_tunis_marine"/><stop busStop="stop_bab_bhar_B1" duration="20"/><stop busStop="stop_B1_B2" duration="20"/><stop busStop="stop_B2_B3" duration="20"/><stop busStop="stop_B3_B4" duration="20"/></vehicle>
+  <trip id="veh394" type="car" depart="426.1" from="mv_s_F4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh395" type="car" depart="426.9" from="fh_w_F1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh396" type="car" depart="427.0" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh397" type="car" depart="428.5" from="mv_s_F4" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped123" type="ped_normal" depart="429.6"><walk from="B4_F4" to="F1_B1"/></person>
+  <trip id="veh398" type="moto" depart="429.9" from="B2_B1" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh399" type="car" depart="430.2" from="fh_w_F1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh400" type="car" depart="430.2" from="bab_bhar_B1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh401" type="car" depart="432.0" from="rome_s_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh402" type="car" depart="433.1" from="F3_F1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh403" type="car" depart="433.4" from="fh_w_F1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh404" type="car" depart="433.7" from="mv_s_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh405" type="car" depart="435.1" from="fh_w_F1" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh406" type="car" depart="435.2" from="B4_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped124" type="ped_slow" depart="435.5"><walk from="F3_F4" to="B4_tunis_marine"/></person>
+  <person id="ped125" type="ped_normal" depart="435.9"><walk from="B4_B3" to="mv_s_F4"/></person>
+  <trip id="veh407" type="moto" depart="436.5" from="paris_n_B3" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped126" type="ped_normal" depart="436.7"><walk from="F4_mv_s" to="fh_w_F1"/></person>
+  <trip id="veh408" type="car" depart="439.1" from="B3_B2" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh409" type="car" depart="439.2" from="bab_bhar_B1" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped127" type="ped_normal" depart="439.2"><walk from="F3_F4" to="B1_bab_bhar"/></person>
+  <trip id="veh410" type="car" depart="440.0" from="fh_w_F1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped128" type="ped_slow" depart="442.7"><walk from="B2_B1" to="B4_mv_n"/></person>
+  <trip id="veh411" type="car" depart="443.0" from="rome_n_B1" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh412" type="car" depart="444.0" from="B4_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh413" type="car" depart="444.3" from="bab_bhar_B1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh414" type="car" depart="444.6" from="rome_n_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh415" type="car" depart="445.8" from="fh_w_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh416" type="car" depart="447.6" from="B3_B4" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh417" type="car" depart="447.7" from="carthage_s_F3" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh418" type="car" depart="447.9" from="mv_s_F4" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh419" type="car" depart="448.5" from="bab_bhar_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh420" type="car" depart="449.5" from="fh_w_F1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh421" type="moto" depart="449.8" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped129" type="ped_normal" depart="450.5"><walk from="mv_s_F4" to="F4_B4"/></person>
+  <trip id="veh422" type="car" depart="450.9" from="F1_F3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped130" type="ped_normal" depart="451.2"><walk from="F1_fh_w" to="mv_s_F4"/></person>
+  <trip id="veh423" type="car" depart="452.6" from="tunis_marine_B4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped131" type="ped_normal" depart="452.9"><walk from="B4_mv_n" to="B1_bab_bhar"/></person>
+  <trip id="veh424" type="car" depart="453.3" from="B3_B4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh425" type="car" depart="454.0" from="tunis_marine_B4" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh426" type="car" depart="456.1" from="F3_B3" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped132" type="ped_normal" depart="457.5"><walk from="B4_F4" to="B2_B1"/></person>
+  <trip id="veh427" type="car" depart="458.1" from="F3_B3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh428" type="car" depart="458.7" from="fh_e_F4" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh429" type="car" depart="461.7" from="F4_B4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh430" type="car" depart="461.9" from="carthage_s_F3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh431" type="car" depart="464.2" from="rome_s_F1" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh432" type="car" depart="464.4" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh433" type="car" depart="467.7" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped133" type="ped_normal" depart="469.6"><walk from="F4_fh_e" to="carthage_s_F3"/></person>
+  <trip id="veh434" type="car" depart="469.9" from="F1_B1" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh435" type="car" depart="470.4" from="B1_B2" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <vehicle id="bus_L1_west_1" type="bus" depart="470.7" line="L1_west"><param key="scheduled" value="261.3"/><route edges="tunis_marine_B4 B4_B3 B3_B2 B2_B1 B1_bab_bhar"/><stop busStop="stop_tunis_marine_B4" duration="20"/><stop busStop="stop_B4_B3" duration="20"/><stop busStop="stop_B3_B2" duration="20"/><stop busStop="stop_B2_B1" duration="20"/></vehicle>
+  <trip id="veh436" type="car" depart="471.7" from="rome_n_B1" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh437" type="car" depart="472.5" from="mv_n_B4" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh438" type="car" depart="474.0" from="paris_n_B3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh439" type="car" depart="476.7" from="B2_B1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh440" type="car" depart="477.7" from="mv_s_F4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh441" type="car" depart="478.7" from="B3_B2" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh442" type="car" depart="480.1" from="F4_F3" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh443" type="car" depart="482.2" from="B4_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh444" type="car" depart="483.2" from="mv_s_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh445" type="car" depart="485.8" from="B4_B3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh446" type="car" depart="486.3" from="B4_F4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh447" type="car" depart="486.4" from="F3_F4" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh448" type="car" depart="487.0" from="B1_F1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh449" type="car" depart="487.4" from="B2_B3" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh450" type="car" depart="489.7" from="B3_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped134" type="ped_normal" depart="490.0"><walk from="mv_s_F4" to="fh_w_F1"/></person>
+  <trip id="veh451" type="car" depart="490.2" from="mv_s_F4" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh452" type="car" depart="491.3" from="fh_e_F4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh453" type="car" depart="493.8" from="mv_n_B4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh454" type="car" depart="494.2" from="rome_n_B1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh455" type="car" depart="494.8" from="fh_w_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped135" type="ped_slow" depart="494.9"><walk from="B2_B1" to="mv_s_F4"/></person>
+  <trip id="veh456" type="car" depart="496.0" from="F3_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh457" type="car" depart="496.6" from="bab_bhar_B1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped136" type="ped_normal" depart="496.6"><walk from="B2_B3" to="F4_B4"/></person>
+  <person id="ped137" type="ped_normal" depart="496.6"><walk from="carthage_s_F3" to="tunis_marine_B4"/></person>
+  <trip id="veh458" type="car" depart="499.2" from="paris_n_B3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped138" type="ped_normal" depart="501.1"><walk from="B4_B3" to="rome_s_F1"/></person>
+  <trip id="veh459" type="car" depart="501.7" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh460" type="car" depart="503.5" from="bab_bhar_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh461" type="car" depart="506.1" from="rome_s_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh462" type="car" depart="506.7" from="F3_F1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh463" type="car" depart="507.3" from="tunis_marine_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh464" type="car" depart="509.1" from="tunis_marine_B4" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="ambulance3" type="ambulance" depart="511.2" from="mv_s_F4" to="F3_carthage_s" departLane="best"/>
+  <trip id="veh465" type="car" depart="511.4" from="B1_B2" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh466" type="car" depart="511.6" from="B3_B2" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh467" type="car" depart="512.2" from="carthage_s_F3" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh468" type="car" depart="514.3" from="B4_B3" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh469" type="car" depart="514.3" from="bab_bhar_B1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh470" type="car" depart="515.4" from="mv_s_F4" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped139" type="ped_normal" depart="515.6"><walk from="fh_w_F1" to="mv_s_F4"/></person>
+  <trip id="veh471" type="car" depart="517.3" from="F1_F3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh472" type="car" depart="518.0" from="tunis_marine_B4" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh473" type="moto" depart="518.3" from="rome_n_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh474" type="car" depart="518.7" from="paris_n_B3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped140" type="ped_slow" depart="518.8"><walk from="B1_F1" to="F4_F3"/></person>
+  <trip id="veh475" type="car" depart="519.0" from="mv_n_B4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh476" type="car" depart="519.1" from="B1_B2" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh477" type="car" depart="519.7" from="carthage_s_F3" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh478" type="car" depart="521.5" from="fh_w_F1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped141" type="ped_normal" depart="522.5"><walk from="rome_n_B1" to="F3_B3"/></person>
+  <trip id="veh479" type="car" depart="523.5" from="B4_F4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh480" type="car" depart="525.9" from="tunis_marine_B4" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh481" type="car" depart="526.4" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped142" type="ped_normal" depart="527.3"><walk from="B4_B3" to="B1_F1"/></person>
+  <person id="ped143" type="ped_normal" depart="527.7"><walk from="B2_B1" to="F1_F3"/></person>
+  <person id="ped144" type="ped_normal" depart="528.0"><walk from="B1_bab_bhar" to="tunis_marine_B4"/></person>
+  <trip id="veh482" type="moto" depart="528.7" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh483" type="car" depart="529.4" from="fh_e_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh484" type="car" depart="531.3" from="fh_e_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh485" type="car" depart="531.5" from="rome_s_F1" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh486" type="car" depart="532.5" from="paris_n_B3" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh487" type="car" depart="532.6" from="paris_n_B3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh488" type="car" depart="532.9" from="tunis_marine_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh489" type="car" depart="533.1" from="B3_F3" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh490" type="car" depart="533.3" from="mv_s_F4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh491" type="car" depart="533.4" from="paris_n_B3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh492" type="car" depart="533.8" from="mv_n_B4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh493" type="car" depart="534.4" from="carthage_s_F3" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh494" type="car" depart="535.9" from="paris_n_B3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped145" type="ped_normal" depart="536.4"><walk from="F4_F3" to="F1_rome_s"/></person>
+  <trip id="veh495" type="car" depart="538.3" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh496" type="car" depart="538.8" from="fh_w_F1" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped146" type="ped_normal" depart="539.1"><walk from="F4_F3" to="tunis_marine_B4"/></person>
+  <trip id="veh497" type="car" depart="540.8" from="fh_w_F1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh498" type="car" depart="541.8" from="fh_w_F1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh499" type="car" depart="542.6" from="B4_F4" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped147" type="ped_normal" depart="542.7"><walk from="B2_B1" to="F1_rome_s"/></person>
+  <person id="ped148" type="ped_normal" depart="543.2"><walk from="B4_mv_n" to="carthage_s_F3"/></person>
+  <trip id="veh500" type="car" depart="544.9" from="F3_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped149" type="ped_normal" depart="545.0"><walk from="F4_B4" to="B3_F3"/></person>
+  <person id="ped150" type="ped_normal" depart="546.2"><walk from="F3_B3" to="B1_F1"/></person>
+  <trip id="veh501" type="car" depart="547.7" from="fh_w_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh502" type="moto" depart="548.6" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh503" type="car" depart="549.1" from="mv_n_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh504" type="car" depart="549.1" from="mv_s_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped151" type="ped_normal" depart="549.6"><walk from="F4_F3" to="F3_F1"/></person>
+  <trip id="veh505" type="moto" depart="551.3" from="rome_s_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh506" type="car" depart="552.5" from="B1_F1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh507" type="car" depart="552.7" from="mv_n_B4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh508" type="moto" depart="554.4" from="F4_B4" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh509" type="car" depart="554.7" from="paris_n_B3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh510" type="car" depart="555.0" from="F4_B4" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped152" type="ped_normal" depart="555.3"><walk from="B1_F1" to="rome_s_F1"/></person>
+  <trip id="veh511" type="car" depart="555.3" from="B4_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh512" type="car" depart="556.1" from="fh_w_F1" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh513" type="car" depart="557.3" from="F3_F1" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh514" type="car" depart="557.5" from="paris_n_B3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh515" type="moto" depart="559.8" from="rome_s_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh516" type="moto" depart="559.9" from="rome_s_F1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh517" type="car" depart="561.1" from="bab_bhar_B1" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh518" type="car" depart="561.2" from="rome_s_F1" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped153" type="ped_normal" depart="561.6"><walk from="B3_F3" to="B1_rome_n"/></person>
+  <trip id="veh519" type="car" depart="562.2" from="tunis_marine_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh520" type="moto" depart="565.2" from="F3_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh521" type="car" depart="565.3" from="tunis_marine_B4" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh522" type="car" depart="565.3" from="B3_B2" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped154" type="ped_slow" depart="566.4"><walk from="rome_n_B1" to="fh_e_F4"/></person>
+  <trip id="veh523" type="car" depart="566.5" from="F1_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh524" type="car" depart="566.5" from="carthage_s_F3" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh525" type="car" depart="567.4" from="bab_bhar_B1" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh526" type="car" depart="568.6" from="tunis_marine_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh527" type="car" depart="569.3" from="fh_w_F1" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh528" type="car" depart="569.3" from="mv_s_F4" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh529" type="car" depart="569.7" from="F4_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh530" type="car" depart="571.2" from="paris_n_B3" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh531" type="moto" depart="571.3" from="B3_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh532" type="car" depart="571.9" from="B3_B2" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh533" type="car" depart="572.2" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped155" type="ped_normal" depart="572.7"><walk from="B3_F3" to="mv_n_B4"/></person>
+  <trip id="veh534" type="car" depart="574.3" from="F1_F3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh535" type="car" depart="574.4" from="mv_n_B4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh536" type="car" depart="574.6" from="fh_w_F1" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh537" type="car" depart="575.1" from="mv_s_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh538" type="car" depart="575.5" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh539" type="car" depart="577.0" from="B1_F1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh540" type="car" depart="578.4" from="fh_w_F1" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh541" type="car" depart="580.0" from="F1_F3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh542" type="car" depart="580.2" from="F3_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped156" type="ped_normal" depart="582.0"><walk from="F4_mv_s" to="B1_B2"/></person>
+  <trip id="veh543" type="car" depart="582.1" from="B3_F3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh544" type="car" depart="582.8" from="mv_n_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh545" type="car" depart="584.6" from="carthage_s_F3" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh546" type="car" depart="586.3" from="mv_s_F4" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh547" type="car" depart="586.5" from="F4_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh548" type="car" depart="586.6" from="fh_w_F1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped157" type="ped_normal" depart="587.4"><walk from="carthage_s_F3" to="B1_rome_n"/></person>
+  <trip id="veh549" type="car" depart="588.2" from="fh_w_F1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh550" type="car" depart="590.4" from="B4_F4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh551" type="moto" depart="594.4" from="carthage_s_F3" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh552" type="car" depart="594.5" from="B1_B2" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped158" type="ped_normal" depart="595.0"><walk from="carthage_s_F3" to="F4_F3"/></person>
+  <trip id="veh553" type="car" depart="595.2" from="B2_B1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh554" type="car" depart="596.4" from="rome_s_F1" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh555" type="car" depart="597.4" from="rome_s_F1" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh556" type="car" depart="597.7" from="mv_n_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <vehicle id="bus_L1_west_2" type="bus" depart="598.3" line="L1_west"><param key="scheduled" value="501.3"/><route edges="tunis_marine_B4 B4_B3 B3_B2 B2_B1 B1_bab_bhar"/><stop busStop="stop_tunis_marine_B4" duration="20"/><stop busStop="stop_B4_B3" duration="20"/><stop busStop="stop_B3_B2" duration="20"/><stop busStop="stop_B2_B1" duration="20"/></vehicle>
+  <person id="ped159" type="ped_normal" depart="599.5"><walk from="B3_paris_n" to="B1_bab_bhar"/></person>
+  <person id="ped160" type="ped_normal" depart="601.1"><walk from="bab_bhar_B1" to="F1_rome_s"/></person>
+  <trip id="veh557" type="car" depart="601.7" from="B2_B1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="police1" type="police" depart="603.0" from="rome_n_B1" to="B4_tunis_marine" departLane="best"/>
+  <person id="ped161" type="ped_normal" depart="603.0"><walk from="F1_F3" to="mv_n_B4"/></person>
+  <trip id="veh558" type="car" depart="603.5" from="B3_B4" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped162" type="ped_normal" depart="603.8"><walk from="B4_F4" to="B3_B2"/></person>
+  <person id="ped163" type="ped_normal" depart="603.8"><walk from="B2_B3" to="bab_bhar_B1"/></person>
+  <trip id="veh559" type="car" depart="604.2" from="B2_B1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <vehicle id="bus_L2_north_2" type="bus" depart="604.3" line="L2_north"><param key="scheduled" value="485.2"/><route edges="mv_s_F4 F4_B4 B4_mv_n"/><stop busStop="stop_mv_s_F4" duration="20"/><stop busStop="stop_F4_B4" duration="20"/></vehicle>
+  <trip id="veh560" type="car" depart="604.5" from="B3_B2" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh561" type="car" depart="604.9" from="rome_s_F1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh562" type="car" depart="605.0" from="carthage_s_F3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh563" type="car" depart="605.9" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh564" type="car" depart="607.2" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh565" type="car" depart="608.8" from="mv_s_F4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped164" type="ped_normal" depart="609.0"><walk from="F1_B1" to="tunis_marine_B4"/></person>
+  <trip id="veh566" type="car" depart="610.8" from="tunis_marine_B4" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh567" type="moto" depart="611.3" from="bab_bhar_B1" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh568" type="car" depart="612.2" from="F1_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh569" type="car" depart="612.6" from="rome_s_F1" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh570" type="car" depart="612.7" from="rome_n_B1" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh571" type="car" depart="613.5" from="tunis_marine_B4" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh572" type="car" depart="614.4" from="F4_F3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh573" type="car" depart="616.0" from="mv_s_F4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh574" type="car" depart="618.6" from="mv_n_B4" to="B3_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh575" type="car" depart="619.3" from="mv_n_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh576" type="car" depart="620.1" from="mv_n_B4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh577" type="car" depart="620.1" from="rome_s_F1" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <vehicle id="bus_L2_south_1" type="bus" depart="621.2" line="L2_south"><param key="scheduled" value="417.8"/><route edges="mv_n_B4 B4_F4 F4_mv_s"/><stop busStop="stop_mv_n_B4" duration="20"/><stop busStop="stop_B4_F4" duration="20"/></vehicle>
+  <trip id="veh578" type="car" depart="622.0" from="bab_bhar_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped165" type="ped_slow" depart="622.2"><walk from="paris_n_B3" to="mv_n_B4"/></person>
+  <trip id="veh579" type="car" depart="622.4" from="B2_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh580" type="car" depart="623.5" from="fh_e_F4" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped166" type="ped_normal" depart="623.8"><walk from="B3_B4" to="B2_B1"/></person>
+  <trip id="veh581" type="car" depart="625.6" from="rome_n_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh582" type="car" depart="625.7" from="mv_n_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh583" type="car" depart="626.5" from="rome_n_B1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh584" type="car" depart="626.8" from="B2_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh585" type="car" depart="626.9" from="F1_B1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh586" type="car" depart="628.3" from="F3_F4" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh587" type="car" depart="628.4" from="paris_n_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped167" type="ped_normal" depart="628.7"><walk from="B2_B3" to="B4_mv_n"/></person>
+  <person id="ped168" type="ped_normal" depart="629.2"><walk from="F1_rome_s" to="B1_B2"/></person>
+  <trip id="veh588" type="car" depart="629.5" from="paris_n_B3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh589" type="car" depart="633.6" from="mv_n_B4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh590" type="car" depart="633.6" from="bab_bhar_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh591" type="car" depart="633.9" from="carthage_s_F3" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh592" type="car" depart="634.7" from="B2_B1" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh593" type="car" depart="635.1" from="tunis_marine_B4" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh594" type="car" depart="635.9" from="rome_s_F1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh595" type="car" depart="637.8" from="mv_n_B4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped169" type="ped_slow" depart="638.8"><walk from="mv_s_F4" to="B1_B2"/></person>
+  <trip id="veh596" type="car" depart="639.3" from="F3_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh597" type="car" depart="639.9" from="mv_n_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped170" type="ped_normal" depart="641.1"><walk from="F3_carthage_s" to="F4_fh_e"/></person>
+  <trip id="veh598" type="car" depart="644.0" from="rome_s_F1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh599" type="car" depart="644.2" from="rome_s_F1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh600" type="moto" depart="644.3" from="mv_n_B4" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh601" type="car" depart="646.6" from="bab_bhar_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped171" type="ped_normal" depart="647.7"><walk from="B1_B2" to="mv_s_F4"/></person>
+  <trip id="veh602" type="car" depart="647.8" from="B1_B2" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh603" type="car" depart="650.7" from="bab_bhar_B1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped172" type="ped_normal" depart="653.1"><walk from="B1_rome_n" to="F1_F3"/></person>
+  <trip id="veh604" type="car" depart="653.3" from="tunis_marine_B4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh605" type="car" depart="654.1" from="mv_n_B4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped173" type="ped_normal" depart="655.9"><walk from="B3_paris_n" to="B3_F3"/></person>
+  <trip id="veh606" type="moto" depart="657.7" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh607" type="moto" depart="658.2" from="fh_e_F4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh608" type="moto" depart="658.9" from="B2_B1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped174" type="ped_normal" depart="660.4"><walk from="B3_B2" to="F4_fh_e"/></person>
+  <trip id="veh609" type="car" depart="661.4" from="rome_s_F1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh610" type="car" depart="661.8" from="B3_B4" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped175" type="ped_normal" depart="663.1"><walk from="fh_e_F4" to="B4_F4"/></person>
+  <trip id="veh611" type="car" depart="663.5" from="rome_s_F1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped176" type="ped_normal" depart="665.3"><walk from="B4_mv_n" to="rome_s_F1"/></person>
+  <trip id="veh612" type="car" depart="666.5" from="F3_F4" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh613" type="car" depart="668.3" from="rome_n_B1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh614" type="car" depart="673.0" from="bab_bhar_B1" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh615" type="car" depart="673.2" from="rome_s_F1" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh616" type="car" depart="674.2" from="F3_F1" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh617" type="car" depart="675.1" from="fh_e_F4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped177" type="ped_normal" depart="676.6"><walk from="B4_B3" to="rome_n_B1"/></person>
+  <person id="ped178" type="ped_normal" depart="676.7"><walk from="B4_mv_n" to="rome_s_F1"/></person>
+  <trip id="veh618" type="car" depart="679.5" from="mv_s_F4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh619" type="car" depart="680.9" from="bab_bhar_B1" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh620" type="car" depart="683.7" from="carthage_s_F3" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh621" type="car" depart="685.7" from="paris_n_B3" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh622" type="car" depart="687.1" from="B3_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="ambulance4" type="ambulance" depart="690.4" from="bab_bhar_B1" to="B1_rome_n" departLane="best"/>
+  <person id="ped179" type="ped_normal" depart="691.0"><walk from="paris_n_B3" to="F3_carthage_s"/></person>
+  <trip id="veh623" type="moto" depart="691.4" from="B3_F3" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped180" type="ped_normal" depart="691.7"><walk from="F3_F4" to="fh_w_F1"/></person>
+  <trip id="veh624" type="car" depart="692.5" from="paris_n_B3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh625" type="car" depart="692.7" from="mv_n_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped181" type="ped_normal" depart="692.8"><walk from="B4_mv_n" to="B3_F3"/></person>
+  <trip id="veh626" type="car" depart="693.6" from="B3_F3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh627" type="car" depart="695.8" from="B3_F3" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh628" type="car" depart="696.6" from="fh_w_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh629" type="car" depart="697.8" from="F3_F1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh630" type="moto" depart="698.0" from="fh_e_F4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh631" type="car" depart="698.3" from="mv_n_B4" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh632" type="moto" depart="699.4" from="bab_bhar_B1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh633" type="car" depart="699.6" from="mv_n_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped182" type="ped_normal" depart="700.8"><walk from="F1_rome_s" to="F4_B4"/></person>
+  <trip id="veh634" type="car" depart="700.9" from="B3_B4" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh635" type="car" depart="701.3" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped183" type="ped_normal" depart="703.0"><walk from="F4_F3" to="paris_n_B3"/></person>
+  <trip id="veh636" type="car" depart="704.1" from="tunis_marine_B4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh637" type="car" depart="704.5" from="F3_F1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh638" type="car" depart="704.5" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh639" type="moto" depart="704.8" from="rome_n_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh640" type="car" depart="706.6" from="B3_B2" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh641" type="car" depart="708.0" from="rome_n_B1" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh642" type="car" depart="709.7" from="F3_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped184" type="ped_normal" depart="710.0"><walk from="F1_rome_s" to="B3_B2"/></person>
+  <trip id="veh643" type="car" depart="710.6" from="tunis_marine_B4" to="B2_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh644" type="car" depart="711.3" from="fh_e_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh645" type="car" depart="711.4" from="tunis_marine_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh646" type="moto" depart="711.6" from="mv_s_F4" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped185" type="ped_normal" depart="712.0"><walk from="B1_rome_n" to="carthage_s_F3"/></person>
+  <trip id="veh647" type="car" depart="712.8" from="rome_s_F1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped186" type="ped_normal" depart="713.7"><walk from="carthage_s_F3" to="B1_B2"/></person>
+  <trip id="veh648" type="moto" depart="717.5" from="B3_F3" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh649" type="car" depart="718.0" from="mv_n_B4" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh650" type="car" depart="718.1" from="rome_s_F1" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh651" type="moto" depart="718.3" from="fh_e_F4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped187" type="ped_normal" depart="720.0"><walk from="F3_F1" to="rome_n_B1"/></person>
+  <trip id="veh652" type="car" depart="720.4" from="carthage_s_F3" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh653" type="car" depart="721.2" from="mv_n_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh654" type="car" depart="721.6" from="bab_bhar_B1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh655" type="car" depart="721.9" from="bab_bhar_B1" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh656" type="car" depart="723.5" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh657" type="car" depart="724.1" from="fh_w_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh658" type="car" depart="724.7" from="carthage_s_F3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped188" type="ped_normal" depart="724.8"><walk from="B4_F4" to="B1_B2"/></person>
+  <trip id="veh659" type="car" depart="725.2" from="B2_B3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh660" type="car" depart="725.4" from="B4_B3" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped189" type="ped_normal" depart="725.7"><walk from="F3_carthage_s" to="B3_B4"/></person>
+  <trip id="veh661" type="car" depart="725.8" from="carthage_s_F3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh662" type="car" depart="726.1" from="fh_w_F1" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped190" type="ped_normal" depart="726.5"><walk from="B1_F1" to="carthage_s_F3"/></person>
+  <person id="ped191" type="ped_normal" depart="727.8"><walk from="F4_B4" to="tunis_marine_B4"/></person>
+  <trip id="veh663" type="car" depart="728.3" from="mv_s_F4" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh664" type="car" depart="728.3" from="paris_n_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh665" type="car" depart="729.4" from="paris_n_B3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh666" type="moto" depart="729.7" from="paris_n_B3" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh667" type="car" depart="729.8" from="paris_n_B3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh668" type="car" depart="729.9" from="B3_B2" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh669" type="moto" depart="731.1" from="bab_bhar_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped192" type="ped_normal" depart="731.5"><walk from="B3_paris_n" to="F3_carthage_s"/></person>
+  <trip id="veh670" type="car" depart="732.9" from="rome_n_B1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh671" type="car" depart="733.5" from="mv_s_F4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh672" type="car" depart="733.9" from="bab_bhar_B1" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh673" type="car" depart="733.9" from="tunis_marine_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped193" type="ped_normal" depart="735.3"><walk from="B1_B2" to="F1_fh_w"/></person>
+  <trip id="veh674" type="car" depart="735.6" from="mv_n_B4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped194" type="ped_normal" depart="737.1"><walk from="carthage_s_F3" to="F1_rome_s"/></person>
+  <trip id="veh675" type="car" depart="740.3" from="F1_B1" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped195" type="ped_normal" depart="740.9"><walk from="B3_F3" to="F1_rome_s"/></person>
+  <trip id="veh676" type="car" depart="741.2" from="B4_B3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh677" type="car" depart="741.4" from="rome_s_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh678" type="car" depart="743.1" from="paris_n_B3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh679" type="car" depart="743.3" from="F3_F1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh680" type="car" depart="743.8" from="mv_s_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped196" type="ped_slow" depart="744.6"><walk from="B1_rome_n" to="rome_s_F1"/></person>
+  <person id="ped197" type="ped_normal" depart="744.8"><walk from="bab_bhar_B1" to="F1_rome_s"/></person>
+  <trip id="veh681" type="car" depart="745.1" from="fh_w_F1" to="B3_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh682" type="car" depart="745.6" from="B3_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped198" type="ped_normal" depart="746.1"><walk from="paris_n_B3" to="F4_B4"/></person>
+  <person id="ped199" type="ped_normal" depart="746.7"><walk from="rome_n_B1" to="B4_F4"/></person>
+  <trip id="veh683" type="car" depart="747.8" from="bab_bhar_B1" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh684" type="car" depart="747.9" from="carthage_s_F3" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh685" type="car" depart="748.0" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh686" type="moto" depart="750.1" from="fh_w_F1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh687" type="car" depart="750.9" from="carthage_s_F3" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh688" type="car" depart="752.8" from="mv_n_B4" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh689" type="car" depart="753.3" from="carthage_s_F3" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh690" type="car" depart="754.5" from="rome_s_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped200" type="ped_normal" depart="755.9"><walk from="B3_B2" to="rome_s_F1"/></person>
+  <person id="ped201" type="ped_normal" depart="757.5"><walk from="F3_carthage_s" to="F4_B4"/></person>
+  <trip id="veh691" type="car" depart="758.1" from="mv_n_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped202" type="ped_normal" depart="758.3"><walk from="F1_B1" to="F3_carthage_s"/></person>
+  <person id="ped203" type="ped_normal" depart="761.9"><walk from="B1_rome_n" to="F3_F4"/></person>
+  <trip id="veh692" type="car" depart="762.1" from="rome_n_B1" to="B1_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <vehicle id="bus_L1_east_2" type="bus" depart="762.5" line="L1_east"><param key="scheduled" value="644.4"/><route edges="bab_bhar_B1 B1_B2 B2_B3 B3_B4 B4_tunis_marine"/><stop busStop="stop_bab_bhar_B1" duration="20"/><stop busStop="stop_B1_B2" duration="20"/><stop busStop="stop_B2_B3" duration="20"/><stop busStop="stop_B3_B4" duration="20"/></vehicle>
+  <trip id="veh693" type="car" depart="763.6" from="mv_n_B4" to="F1_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped204" type="ped_normal" depart="764.3"><walk from="B4_mv_n" to="B4_B3"/></person>
+  <trip id="veh694" type="moto" depart="764.8" from="tunis_marine_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped205" type="ped_normal" depart="765.7"><walk from="F4_mv_s" to="B3_B4"/></person>
+  <trip id="veh695" type="car" depart="765.7" from="mv_s_F4" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh696" type="car" depart="765.8" from="rome_n_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh697" type="moto" depart="765.9" from="fh_e_F4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh698" type="car" depart="766.9" from="mv_n_B4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh699" type="car" depart="768.5" from="fh_e_F4" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh700" type="car" depart="768.9" from="B1_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh701" type="car" depart="770.5" from="rome_n_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh702" type="car" depart="772.6" from="F3_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh703" type="moto" depart="773.0" from="mv_n_B4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped206" type="ped_normal" depart="773.2"><walk from="mv_s_F4" to="B2_B1"/></person>
+  <trip id="veh704" type="car" depart="773.3" from="rome_n_B1" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh705" type="car" depart="773.7" from="mv_n_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped207" type="ped_slow" depart="775.2"><walk from="B1_bab_bhar" to="carthage_s_F3"/></person>
+  <trip id="veh706" type="car" depart="776.1" from="paris_n_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh707" type="car" depart="778.8" from="fh_w_F1" to="B3_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh708" type="car" depart="779.6" from="rome_s_F1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped208" type="ped_normal" depart="779.8"><walk from="rome_n_B1" to="F1_fh_w"/></person>
+  <person id="ped209" type="ped_slow" depart="780.1"><walk from="B3_paris_n" to="B4_F4"/></person>
+  <person id="ped210" type="ped_normal" depart="780.8"><walk from="F1_fh_w" to="fh_e_F4"/></person>
+  <trip id="veh709" type="car" depart="780.9" from="paris_n_B3" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh710" type="moto" depart="781.0" from="fh_e_F4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh711" type="car" depart="783.1" from="F3_F4" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped211" type="ped_normal" depart="783.3"><walk from="B4_mv_n" to="carthage_s_F3"/></person>
+  <trip id="veh712" type="car" depart="783.5" from="tunis_marine_B4" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh713" type="car" depart="784.5" from="B1_F1" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh714" type="car" depart="786.4" from="paris_n_B3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh715" type="car" depart="790.5" from="fh_e_F4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped212" type="ped_slow" depart="790.5"><walk from="rome_s_F1" to="rome_n_B1"/></person>
+  <trip id="veh716" type="car" depart="790.8" from="fh_e_F4" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh717" type="car" depart="791.8" from="F3_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh718" type="car" depart="792.3" from="bab_bhar_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh719" type="car" depart="795.6" from="B3_B2" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh720" type="car" depart="796.9" from="B1_F1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh721" type="car" depart="797.0" from="B3_B2" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh722" type="car" depart="797.9" from="mv_n_B4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped213" type="ped_normal" depart="798.0"><walk from="mv_s_F4" to="F4_fh_e"/></person>
+  <trip id="veh723" type="car" depart="800.4" from="B2_B1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh724" type="car" depart="800.9" from="paris_n_B3" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh725" type="car" depart="801.2" from="B3_B2" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh726" type="car" depart="801.6" from="tunis_marine_B4" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh727" type="car" depart="801.6" from="rome_n_B1" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh728" type="car" depart="802.4" from="F1_F3" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh729" type="car" depart="803.8" from="F1_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh730" type="car" depart="807.3" from="B3_B2" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped214" type="ped_normal" depart="808.0"><walk from="carthage_s_F3" to="B4_mv_n"/></person>
+  <trip id="veh731" type="car" depart="810.8" from="carthage_s_F3" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped215" type="ped_normal" depart="813.5"><walk from="F3_F1" to="mv_s_F4"/></person>
+  <trip id="veh732" type="car" depart="813.6" from="B3_B2" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped216" type="ped_normal" depart="814.3"><walk from="B1_F1" to="rome_s_F1"/></person>
+  <trip id="veh733" type="car" depart="816.0" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh734" type="car" depart="817.0" from="tunis_marine_B4" to="B1_B2" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh735" type="car" depart="817.6" from="carthage_s_F3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped217" type="ped_normal" depart="818.2"><walk from="F1_F3" to="mv_s_F4"/></person>
+  <trip id="ambulance5" type="ambulance" depart="818.3" from="mv_n_B4" to="F1_rome_s" departLane="best"/>
+  <person id="ped218" type="ped_normal" depart="818.7"><walk from="F4_fh_e" to="F4_B4"/></person>
+  <person id="ped219" type="ped_normal" depart="819.6"><walk from="F4_mv_s" to="B1_bab_bhar"/></person>
+  <trip id="veh736" type="car" depart="820.3" from="B4_F4" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh737" type="car" depart="821.7" from="tunis_marine_B4" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh738" type="car" depart="822.0" from="fh_w_F1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh739" type="moto" depart="822.3" from="B2_B1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped220" type="ped_normal" depart="823.4"><walk from="F1_fh_w" to="B1_bab_bhar"/></person>
+  <trip id="veh740" type="car" depart="823.7" from="carthage_s_F3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh741" type="car" depart="824.4" from="tunis_marine_B4" to="F1_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh742" type="car" depart="824.8" from="bab_bhar_B1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh743" type="car" depart="826.4" from="rome_s_F1" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped221" type="ped_slow" depart="826.7"><walk from="fh_w_F1" to="F1_B1"/></person>
+  <trip id="veh744" type="car" depart="828.1" from="fh_e_F4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <vehicle id="bus_L2_south_2" type="bus" depart="828.1" line="L2_south"><param key="scheduled" value="657.8"/><route edges="mv_n_B4 B4_F4 F4_mv_s"/><stop busStop="stop_mv_n_B4" duration="20"/><stop busStop="stop_B4_F4" duration="20"/></vehicle>
+  <trip id="veh745" type="car" depart="828.2" from="mv_n_B4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped222" type="ped_normal" depart="828.3"><walk from="B3_B2" to="F1_fh_w"/></person>
+  <trip id="veh746" type="car" depart="828.7" from="mv_n_B4" to="B1_rome_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh747" type="car" depart="830.4" from="carthage_s_F3" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh748" type="car" depart="831.7" from="F1_B1" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh749" type="car" depart="831.7" from="bab_bhar_B1" to="B4_mv_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh750" type="car" depart="833.8" from="bab_bhar_B1" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <vehicle id="bus_L2_north_3" type="bus" depart="834.1" line="L2_north"><param key="scheduled" value="725.2"/><route edges="mv_s_F4 F4_B4 B4_mv_n"/><stop busStop="stop_mv_s_F4" duration="20"/><stop busStop="stop_F4_B4" duration="20"/></vehicle>
+  <trip id="veh751" type="car" depart="834.3" from="B2_B1" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh752" type="moto" depart="834.7" from="mv_s_F4" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh753" type="car" depart="834.9" from="carthage_s_F3" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh754" type="car" depart="837.2" from="paris_n_B3" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh755" type="car" depart="840.8" from="mv_n_B4" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh756" type="car" depart="841.7" from="B3_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped223" type="ped_slow" depart="841.7"><walk from="F1_F3" to="B2_B1"/></person>
+  <trip id="veh757" type="car" depart="842.7" from="fh_e_F4" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh758" type="car" depart="843.1" from="mv_n_B4" to="F4_mv_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh759" type="car" depart="845.1" from="fh_w_F1" to="B1_bab_bhar" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped224" type="ped_normal" depart="847.1"><walk from="B4_B3" to="F1_B1"/></person>
+  <trip id="veh760" type="car" depart="849.4" from="B2_B1" to="B4_mv_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped225" type="ped_normal" depart="849.8"><walk from="rome_s_F1" to="B4_B3"/></person>
+  <person id="ped226" type="ped_normal" depart="851.3"><walk from="F1_rome_s" to="bab_bhar_B1"/></person>
+  <person id="ped227" type="ped_slow" depart="851.3"><walk from="B1_bab_bhar" to="rome_s_F1"/></person>
+  <person id="ped228" type="ped_normal" depart="851.3"><walk from="mv_s_F4" to="F1_F3"/></person>
+  <trip id="veh761" type="car" depart="851.5" from="B3_F3" to="B1_rome_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh762" type="car" depart="852.2" from="carthage_s_F3" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh763" type="car" depart="852.5" from="bab_bhar_B1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh764" type="car" depart="855.7" from="bab_bhar_B1" to="F4_fh_e" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped229" type="ped_normal" depart="855.9"><walk from="B3_paris_n" to="tunis_marine_B4"/></person>
+  <person id="ped230" type="ped_normal" depart="856.0"><walk from="F4_B4" to="B3_paris_n"/></person>
+  <vehicle id="bus_L1_west_3" type="bus" depart="856.2" line="L1_west"><param key="scheduled" value="741.3"/><route edges="tunis_marine_B4 B4_B3 B3_B2 B2_B1 B1_bab_bhar"/><stop busStop="stop_tunis_marine_B4" duration="20"/><stop busStop="stop_B4_B3" duration="20"/><stop busStop="stop_B3_B2" duration="20"/><stop busStop="stop_B2_B1" duration="20"/></vehicle>
+  <trip id="veh765" type="car" depart="857.8" from="rome_s_F1" to="F1_fh_w" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped231" type="ped_normal" depart="858.1"><walk from="F1_fh_w" to="mv_s_F4"/></person>
+  <person id="ped232" type="ped_normal" depart="862.2"><walk from="F4_F3" to="F3_carthage_s"/></person>
+  <trip id="veh766" type="car" depart="862.8" from="B2_B3" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh767" type="car" depart="863.4" from="mv_s_F4" to="B4_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh768" type="car" depart="863.5" from="mv_s_F4" to="F4_B4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh769" type="car" depart="863.6" from="bab_bhar_B1" to="F3_F1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh770" type="car" depart="864.5" from="bab_bhar_B1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh771" type="moto" depart="867.2" from="fh_w_F1" to="F3_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh772" type="moto" depart="869.3" from="rome_s_F1" to="B3_paris_n" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh773" type="car" depart="871.5" from="rome_s_F1" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh774" type="car" depart="874.6" from="B1_B2" to="F1_rome_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh775" type="car" depart="875.5" from="B2_B3" to="B1_bab_bhar" departLane="best"><param key="kind" value="outbound"/></trip>
+  <person id="ped233" type="ped_normal" depart="878.6"><walk from="F4_mv_s" to="B1_rome_n"/></person>
+  <trip id="veh776" type="car" depart="878.6" from="bab_bhar_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <person id="ped234" type="ped_normal" depart="879.7"><walk from="F4_B4" to="B1_F1"/></person>
+  <trip id="veh777" type="car" depart="880.3" from="B3_B4" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh778" type="car" depart="881.7" from="B1_F1" to="F1_fh_w" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh779" type="car" depart="881.7" from="F4_F3" to="F4_mv_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh780" type="car" depart="883.0" from="tunis_marine_B4" to="F3_F4" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh781" type="car" depart="884.2" from="F1_F3" to="B3_paris_n" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh782" type="car" depart="886.9" from="paris_n_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh783" type="car" depart="887.8" from="paris_n_B3" to="F3_carthage_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh784" type="car" depart="888.5" from="B3_B2" to="F3_carthage_s" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh785" type="car" depart="889.3" from="B2_B3" to="B4_tunis_marine" departLane="best"><param key="kind" value="outbound"/></trip>
+  <trip id="veh786" type="car" depart="891.7" from="bab_bhar_B1" to="B2_B1" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh787" type="car" depart="892.8" from="paris_n_B3" to="F1_rome_s" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh788" type="car" depart="896.9" from="tunis_marine_B4" to="F4_F3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <trip id="veh789" type="car" depart="896.9" from="tunis_marine_B4" to="B4_B3" departLane="best"><param key="kind" value="inbound"/></trip>
+  <person id="ped235" type="ped_normal" depart="898.9"><walk from="B3_paris_n" to="B3_B2"/></person>
+  <trip id="veh790" type="car" depart="899.0" from="rome_n_B1" to="B4_tunis_marine" departLane="best"><param key="kind" value="through"/></trip>
+  <trip id="veh791" type="car" depart="899.2" from="F1_B1" to="F4_fh_e" departLane="best"><param key="kind" value="outbound"/></trip>
+</routes>

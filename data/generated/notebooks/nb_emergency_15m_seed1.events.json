@@ -1,0 +1,18 @@
+{
+ "scenario": "nb_emergency_15m",
+ "seed": 1,
+ "start": "2026-10-14 11:00",
+ "duration": 900,
+ "events": {
+  "ambulances": {
+   "count": 6
+  },
+  "police": {
+   "count": 2
+  },
+  "fire_trucks": {
+   "count": 1
+  }
+ },
+ "vehicles": 815
+}

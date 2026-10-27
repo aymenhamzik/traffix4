@@ -1,0 +1,131 @@
+comparison,metric,scenario,traffix,other,change_%,p
+vs actuated,veh_mean_wait_s,offpeak,25.73,29.9,-14.0,0.0986
+vs actuated,veh_mean_wait_s,morning_peak,54.06,100.59,-46.3,0.1187
+vs actuated,veh_mean_wait_s,evening_peak,50.48,57.99,-13.0,0.0568
+vs actuated,veh_mean_wait_s,heavy,156.13,203.52,-23.3,0.184
+vs actuated,veh_mean_wait_s,rain,225.96,281.99,-19.9,0.025
+vs actuated,veh_mean_wait_s,bus_disruption,53.34,75.42,-29.3,0.1077
+vs actuated,veh_mean_wait_s,rush_transition,73.48,99.75,-26.3,0.0288
+vs actuated,veh_mean_wait_s,ramadan_pre_iftar,93.13,137.17,-32.1,0.0522
+vs actuated,veh_mean_wait_s,pre_eid_shopping,28.05,31.18,-10.0,0.1313
+vs actuated,veh_mean_wait_s,emergency,26.88,29.02,-7.4,0.2286
+vs actuated,veh_mean_wait_s,incident,60.71,62.7,-3.2,0.8661
+vs actuated,veh_mean_wait_s,combined,78.01,93.67,-16.7,0.1196
+vs actuated,ped_mean_wait_s,offpeak,14.44,17.81,-18.9,0.0124
+vs actuated,ped_mean_wait_s,morning_peak,15.08,26.83,-43.8,0.0172
+vs actuated,ped_mean_wait_s,evening_peak,15.78,24.62,-35.9,0.0101
+vs actuated,ped_mean_wait_s,heavy,18.08,30.0,-39.7,0.0479
+vs actuated,ped_mean_wait_s,rain,21.86,31.99,-31.7,0.0308
+vs actuated,ped_mean_wait_s,bus_disruption,15.23,24.06,-36.7,0.0184
+vs actuated,ped_mean_wait_s,rush_transition,15.66,25.23,-38.0,0.0005
+vs actuated,ped_mean_wait_s,ramadan_pre_iftar,16.41,27.66,-40.7,0.0003
+vs actuated,ped_mean_wait_s,pre_eid_shopping,14.52,16.51,-12.0,0.0872
+vs actuated,ped_mean_wait_s,emergency,14.74,17.63,-16.4,0.0022
+vs actuated,ped_mean_wait_s,incident,17.24,23.77,-27.5,0.0468
+vs actuated,ped_mean_wait_s,combined,20.6,26.22,-21.5,0.0949
+vs actuated,ambulance_mean_travel_s,emergency,95.11,132.67,-28.3,0.0742
+vs actuated,ambulance_mean_travel_s,combined,170.2,231.2,-26.4,0.3666
+supermaster adds,veh_mean_wait_s,offpeak,25.73,28.66,-10.2,0.0949
+supermaster adds,veh_mean_wait_s,morning_peak,54.06,63.75,-15.2,0.0076
+supermaster adds,veh_mean_wait_s,evening_peak,50.48,51.63,-2.2,0.8914
+supermaster adds,veh_mean_wait_s,heavy,156.13,175.31,-10.9,0.5552
+supermaster adds,veh_mean_wait_s,rain,225.96,218.11,3.6,0.0362
+supermaster adds,veh_mean_wait_s,bus_disruption,53.34,58.91,-9.5,0.1183
+supermaster adds,veh_mean_wait_s,rush_transition,73.48,79.79,-7.9,0.1146
+supermaster adds,veh_mean_wait_s,ramadan_pre_iftar,93.13,99.25,-6.2,0.0059
+supermaster adds,veh_mean_wait_s,pre_eid_shopping,28.05,31.3,-10.4,0.043
+supermaster adds,veh_mean_wait_s,emergency,26.88,27.86,-3.5,0.1198
+supermaster adds,veh_mean_wait_s,incident,60.71,57.24,6.1,0.7286
+supermaster adds,veh_mean_wait_s,combined,78.01,52.27,49.2,0.019
+supermaster adds,ped_mean_wait_s,offpeak,14.44,13.51,6.9,0.0855
+supermaster adds,ped_mean_wait_s,morning_peak,15.08,14.97,0.7,0.8583
+supermaster adds,ped_mean_wait_s,evening_peak,15.78,14.54,8.6,0.2793
+supermaster adds,ped_mean_wait_s,heavy,18.08,17.34,4.3,0.5819
+supermaster adds,ped_mean_wait_s,rain,21.86,16.89,29.4,0.0817
+supermaster adds,ped_mean_wait_s,bus_disruption,15.23,14.54,4.7,0.0704
+supermaster adds,ped_mean_wait_s,rush_transition,15.66,15.27,2.6,0.0693
+supermaster adds,ped_mean_wait_s,ramadan_pre_iftar,16.41,15.95,2.9,0.4464
+supermaster adds,ped_mean_wait_s,pre_eid_shopping,14.52,12.63,15.0,0.0917
+supermaster adds,ped_mean_wait_s,emergency,14.74,13.27,11.1,0.0022
+supermaster adds,ped_mean_wait_s,incident,17.24,15.76,9.4,0.3567
+supermaster adds,ped_mean_wait_s,combined,20.6,15.67,31.5,0.0651
+supermaster adds,ambulance_mean_travel_s,emergency,95.11,105.33,-9.7,0.1822
+supermaster adds,ambulance_mean_travel_s,combined,170.2,157.13,8.3,0.5671
+models add,veh_mean_wait_s,offpeak,25.73,26.57,-3.2,0.3475
+models add,veh_mean_wait_s,morning_peak,54.06,59.92,-9.8,0.0365
+models add,veh_mean_wait_s,evening_peak,50.48,46.97,7.5,0.6798
+models add,veh_mean_wait_s,heavy,156.13,158.73,-1.6,0.8104
+models add,veh_mean_wait_s,rain,225.96,257.49,-12.2,0.023
+models add,veh_mean_wait_s,bus_disruption,53.34,55.73,-4.3,0.3387
+models add,veh_mean_wait_s,rush_transition,73.48,74.38,-1.2,0.8435
+models add,veh_mean_wait_s,ramadan_pre_iftar,93.13,94.96,-1.9,0.4653
+models add,veh_mean_wait_s,pre_eid_shopping,28.05,28.06,-0.0,0.9938
+models add,veh_mean_wait_s,emergency,26.88,28.76,-6.5,0.0842
+models add,veh_mean_wait_s,incident,60.71,54.8,10.8,0.5508
+models add,veh_mean_wait_s,combined,78.01,77.42,0.8,0.8873
+models add,ped_mean_wait_s,offpeak,14.44,14.01,3.1,0.0763
+models add,ped_mean_wait_s,morning_peak,15.08,14.85,1.5,0.5192
+models add,ped_mean_wait_s,evening_peak,15.78,14.86,6.2,0.4446
+models add,ped_mean_wait_s,heavy,18.08,18.53,-2.5,0.7778
+models add,ped_mean_wait_s,rain,21.86,22.88,-4.4,0.5556
+models add,ped_mean_wait_s,bus_disruption,15.23,14.93,2.0,0.0165
+models add,ped_mean_wait_s,rush_transition,15.66,16.27,-3.8,0.0535
+models add,ped_mean_wait_s,ramadan_pre_iftar,16.41,16.83,-2.5,0.1514
+models add,ped_mean_wait_s,pre_eid_shopping,14.52,14.11,2.9,0.4459
+models add,ped_mean_wait_s,emergency,14.74,14.63,0.8,0.6859
+models add,ped_mean_wait_s,incident,17.24,15.96,8.0,0.506
+models add,ped_mean_wait_s,combined,20.6,19.0,8.4,0.2547
+models add,ambulance_mean_travel_s,emergency,95.11,96.0,-0.9,0.7458
+models add,ambulance_mean_travel_s,combined,170.2,144.87,17.5,0.2341
+predictive vs max-pressure,veh_mean_wait_s,offpeak,32.36,25.73,25.8,0.0206
+predictive vs max-pressure,veh_mean_wait_s,morning_peak,68.89,54.06,27.4,0.0054
+predictive vs max-pressure,veh_mean_wait_s,evening_peak,49.16,50.48,-2.6,0.8602
+predictive vs max-pressure,veh_mean_wait_s,heavy,211.29,156.13,35.3,0.0202
+predictive vs max-pressure,veh_mean_wait_s,rain,320.11,225.96,41.7,0.0019
+predictive vs max-pressure,veh_mean_wait_s,bus_disruption,72.94,53.34,36.7,0.0354
+predictive vs max-pressure,veh_mean_wait_s,rush_transition,87.32,73.48,18.8,0.07
+predictive vs max-pressure,veh_mean_wait_s,ramadan_pre_iftar,139.18,93.13,49.4,0.0242
+predictive vs max-pressure,veh_mean_wait_s,pre_eid_shopping,35.49,28.05,26.5,0.0218
+predictive vs max-pressure,veh_mean_wait_s,emergency,32.09,26.88,19.4,0.0579
+predictive vs max-pressure,veh_mean_wait_s,incident,64.42,60.71,6.1,0.24
+predictive vs max-pressure,veh_mean_wait_s,combined,89.48,78.01,14.7,0.3642
+predictive vs max-pressure,ped_mean_wait_s,offpeak,16.42,14.44,13.7,0.0479
+predictive vs max-pressure,ped_mean_wait_s,morning_peak,18.31,15.08,21.4,0.0034
+predictive vs max-pressure,ped_mean_wait_s,evening_peak,17.64,15.78,11.8,0.2342
+predictive vs max-pressure,ped_mean_wait_s,heavy,19.72,18.08,9.1,0.5112
+predictive vs max-pressure,ped_mean_wait_s,rain,27.1,21.86,24.0,0.0922
+predictive vs max-pressure,ped_mean_wait_s,bus_disruption,17.65,15.23,15.9,0.013
+predictive vs max-pressure,ped_mean_wait_s,rush_transition,18.28,15.66,16.7,0.0025
+predictive vs max-pressure,ped_mean_wait_s,ramadan_pre_iftar,17.71,16.41,7.9,0.0373
+predictive vs max-pressure,ped_mean_wait_s,pre_eid_shopping,14.96,14.52,3.0,0.2644
+predictive vs max-pressure,ped_mean_wait_s,emergency,16.14,14.74,9.5,0.0972
+predictive vs max-pressure,ped_mean_wait_s,incident,19.67,17.24,14.1,0.0895
+predictive vs max-pressure,ped_mean_wait_s,combined,21.86,20.6,6.1,0.4537
+predictive vs max-pressure,ambulance_mean_travel_s,emergency,93.82,95.11,-1.4,0.7278
+predictive vs max-pressure,ambulance_mean_travel_s,combined,141.2,170.2,-17.0,0.2687
+RL vs max-pressure,veh_mean_wait_s,offpeak,28.08,25.73,9.2,0.1294
+RL vs max-pressure,veh_mean_wait_s,morning_peak,61.6,54.06,13.9,0.0018
+RL vs max-pressure,veh_mean_wait_s,evening_peak,52.42,50.48,3.9,0.7462
+RL vs max-pressure,veh_mean_wait_s,heavy,196.86,156.13,26.1,0.3321
+RL vs max-pressure,veh_mean_wait_s,rain,238.14,225.96,5.4,0.4989
+RL vs max-pressure,veh_mean_wait_s,bus_disruption,59.62,53.34,11.8,0.1631
+RL vs max-pressure,veh_mean_wait_s,rush_transition,99.25,73.48,35.1,0.2105
+RL vs max-pressure,veh_mean_wait_s,ramadan_pre_iftar,97.68,93.13,4.9,0.1703
+RL vs max-pressure,veh_mean_wait_s,pre_eid_shopping,33.01,28.05,17.7,0.0326
+RL vs max-pressure,veh_mean_wait_s,emergency,30.6,26.88,13.8,0.0941
+RL vs max-pressure,veh_mean_wait_s,incident,59.3,60.71,-2.3,0.8884
+RL vs max-pressure,veh_mean_wait_s,combined,91.15,78.01,16.8,0.1613
+RL vs max-pressure,ped_mean_wait_s,offpeak,14.39,14.44,-0.4,0.5997
+RL vs max-pressure,ped_mean_wait_s,morning_peak,15.29,15.08,1.5,0.1081
+RL vs max-pressure,ped_mean_wait_s,evening_peak,15.19,15.78,-3.7,0.6309
+RL vs max-pressure,ped_mean_wait_s,heavy,18.07,18.08,-0.0,0.9964
+RL vs max-pressure,ped_mean_wait_s,rain,21.13,21.86,-3.4,0.4383
+RL vs max-pressure,ped_mean_wait_s,bus_disruption,15.03,15.23,-1.3,0.4176
+RL vs max-pressure,ped_mean_wait_s,rush_transition,17.62,15.66,12.5,0.2733
+RL vs max-pressure,ped_mean_wait_s,ramadan_pre_iftar,16.3,16.41,-0.7,0.7244
+RL vs max-pressure,ped_mean_wait_s,pre_eid_shopping,14.67,14.52,1.1,0.683
+RL vs max-pressure,ped_mean_wait_s,emergency,15.14,14.74,2.7,0.2401
+RL vs max-pressure,ped_mean_wait_s,incident,15.87,17.24,-7.9,0.3487
+RL vs max-pressure,ped_mean_wait_s,combined,21.33,20.6,3.5,0.6946
+RL vs max-pressure,ambulance_mean_travel_s,emergency,96.0,95.11,0.9,0.8335
+RL vs max-pressure,ambulance_mean_travel_s,combined,160.33,170.2,-5.8,0.4147

@@ -1,0 +1,11 @@
+task,metric,best,best_score,used_by_agent,used_rank,of,used_score,rule_score
+incident,F1,xgboost,0.6492,lightgbm,2,6,0.6481,0.1259
+sensor_health,F1,xgboost,0.9916,hist_gb,2,6,0.9916,0.9742
+pedestrian,F1,linear,0.2235,hist_gb,2,6,0.189,0.0
+ambulance_eta,MAE,random_forest,13.4487,xgboost,2,6,14.8477,38.2118
+bus_eta,MAE,random_forest,21.9781,hist_gb,3,6,25.7872,56.1021
+bus_lateness,MAE,random_forest,46.7678,hist_gb,6,6,51.9029,92.8354
+edge_travel_time,MAE,lightgbm,11.5218,hist_gb,4,6,11.7096,33.8817
+arrivals,MAE,lightgbm,1.4952,hist_gb,2,6,1.4953,1.8594
+rain_speed,MAE,linear,0.121,hist_gb,3,6,0.121,0.3564
+demand_forecast,MAE 2026,lightgbm,0.0227,hist_gb,2,6,0.0228,0.0442

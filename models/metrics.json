@@ -1,0 +1,85 @@
+{
+ "demand_forecast": {
+  "test_year": 2026,
+  "mae_level": 0.023,
+  "mae_level_naive_same_date": 0.044,
+  "mae_level_ramadan": 0.026,
+  "mae_level_ramadan_naive": 0.103,
+  "mae_inbound_share": 0.024
+ },
+ "incident": {
+  "algorithm": "lightgbm",
+  "rows": 181442,
+  "positives": 1022,
+  "precision": 0.491,
+  "recall": 0.867,
+  "f1": 0.627,
+  "rule_f1": 0.045
+ },
+ "pedestrian": {
+  "algorithm": "hist_gb",
+  "rows": 20832,
+  "positives": 614,
+  "precision": 0.164,
+  "recall": 0.837,
+  "f1": 0.274,
+  "rule_f1": 0.0
+ },
+ "ambulance_eta": {
+  "algorithm": "xgboost",
+  "rows": 844,
+  "mae": 11.64,
+  "rule_mae": 37.14
+ },
+ "bus_eta": {
+  "algorithm": "hist_gb",
+  "rows": 71250,
+  "mae": 25.72,
+  "rule_mae": 56.84
+ },
+ "bus_lateness": {
+  "algorithm": "hist_gb",
+  "rows": 1441,
+  "mae": 57.39,
+  "rule_mae": 94.8
+ },
+ "edge_travel_time": {
+  "algorithm": "hist_gb",
+  "rows": 78156,
+  "mae": 11.65,
+  "rule_mae": 33.31
+ },
+ "rain_speed": {
+  "algorithm": "hist_gb",
+  "rows": 1563,
+  "mae": 0.12,
+  "rule_mae": 0.35
+ },
+ "arrivals": {
+  "algorithm": "hist_gb",
+  "rows": 115934,
+  "mae": 1.48,
+  "rule_mae": 1.86
+ },
+ "sensor_health": {
+  "algorithm": "hist_gb",
+  "rows": 60976,
+  "positives": 976,
+  "precision": 1.0,
+  "recall": 0.984,
+  "f1": 0.992,
+  "rule_f1": 0.975
+ },
+ "notification": {
+  "rows": 105,
+  "training_accuracy": 1.0,
+  "note": "labels are our own rules; the model reproduces them"
+ },
+ "_versions": {
+  "scikit-learn": "1.9.1",
+  "numpy": "2.5.3",
+  "xgboost": "3.4.1",
+  "lightgbm": "4.7.0",
+  "python": "3.14.7"
+ }
+}

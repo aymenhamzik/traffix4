@@ -1,0 +1,4 @@
+Warning: At actuated tlLogic 'B4', linkIndex 10,11,12 has no controlling detector.
+Warning: Not using public transport line 'L2_north' for routing persons. It has less than two usable stops.
+Warning: Teleporting vehicle 'veh3251'; waited too long (jam), lane=':F1_11_1', time=3851.00.
+Warning: Vehicle 'veh3251' ends teleporting on edge 'F1_F3', time=3851.00.

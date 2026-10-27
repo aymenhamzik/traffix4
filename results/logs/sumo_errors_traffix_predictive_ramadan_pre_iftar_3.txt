@@ -1,0 +1,3 @@
+Warning: Not using public transport line 'L2_north' for routing persons. It has less than two usable stops.
+Warning: Teleporting vehicle 'veh2622'; waited too long (yield), lane='rome_n_B1_1', time=3030.00.
+Warning: Vehicle 'veh2622' ends teleporting on edge 'B1_F1', time=3074.00.
